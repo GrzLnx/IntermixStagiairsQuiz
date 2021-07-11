@@ -1,0 +1,14 @@
+/* Removing the default margins, paddings and setting the box 
+   sizing to border box. */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Removing the borders from the form fieldsets. */
+fieldset {
+  border: none;
+}

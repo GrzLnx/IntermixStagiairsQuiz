@@ -1,0 +1,51 @@
+/* The default styling for a section. */
+.section {
+
+  &__row {
+    max-width: var(--p--max-width);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &[data-section-background="bgc--default"] + &[data-section-background="bgc--default"] {
+    padding-top: 0;
+  }
+  &[data-section-background="gc--first"] {
+    @include background-color( 'gc--first' );
+    & + & {
+      padding-top: 0;
+    }
+  }
+  &[data-section-background="ac--first"] {
+    @include background-color( 'ac--first' );
+    & + & {
+      padding-top: 0;
+    }
+  }
+  &[data-section-background="ac--second"] {
+    @include background-color( 'ac--second' );
+    & + & {
+      padding-top: 0;
+    }
+  }
+
+}
+
+/* Styling the sections. */
+
+#name-holder {
+
+}
+
+#questions-holder {
+    background-color: var(--c--white);
+    padding-bottom: 6.4rem;
+    border-radius: 16px;
+}
+
+.content-holder {
+    padding: 6.4rem 6.4rem 0;
+}
+.button-holder {
+    padding: 0 6.4rem;
+}

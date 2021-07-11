@@ -1,0 +1,27 @@
+/* Styling the grid parent. */
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat( 12, 1fr );
+}
+
+/* Styling the grid child. */
+.grid-child {
+  display: inline-grid;
+  width: 100%;
+  grid-column: span 12;
+}
+
+/* Styling the grid child subclasses. */
+@include from-large-tablet {
+  .grid-child--11 { grid-column: span 11; }
+  .grid-child--10 { grid-column: span 10; }
+  .grid-child--9 { grid-column: span 9; }
+  .grid-child--8 { grid-column: span 8; }
+  .grid-child--7 { grid-column: span 7; }
+  .grid-child--6 { grid-column: span 6; }
+  .grid-child--5 { grid-column: span 5; }
+  .grid-child--4 { grid-column: span 4; }
+  .grid-child--3 { grid-column: span 3; }
+  .grid-child--2 { grid-column: span 2; }
+  .grid-child--1 { grid-column: span 1; }
+}

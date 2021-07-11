@@ -1,0 +1,400 @@
+:root {
+
+  /* The page ( p ) variables. */
+  --p--max-width: 100%;
+
+  /* The font family ( ff ) variables. */
+  --ff--backup: sans-serif;
+  --ff--title: 'Lexend', var(--ff--backup);
+  --ff--text: 'Lexend', var(--ff--backup);
+  --ff--button: 'Lexend', var(--ff--backup);
+  --ff--icons: 'Linearicons', var(--ff--backup);
+
+  /* The font size ( fs ) variables. */
+  --fs--default: 2.4rem;
+  --fs--small: 1.4rem;
+  --fs--h1: 4.8rem;
+  --fs--h2: 3.6rem;
+  --fs--h3: 2.8rem;
+  --fs--h4: 2.4rem;
+  --fs--h5: 2rem;
+  --fs--h6: 2rem;
+  --fs--button: 2.4rem;
+
+  /* The line height ( lh ) variables. */
+  --lh--default: 1.5;
+  --lh--h1: 1.3;
+  --lh--h2: 1.3;
+  --lh--h3: 1.3;
+  --lh--h4: 1.3;
+  --lh--h5: 1.3;
+  --lh--h6: 1.3;
+  --lh--button: 1.2;
+
+  /* The font weight ( fw ) variables. */
+  --fw--default: 400;
+  --fw--h1: 700;
+  --fw--h2: 700;
+  --fw--h3: 700;
+  --fw--h4: 700;
+  --fw--h5: 700;
+  --fw--h6: 400;
+  --fw--button: 700;
+  --fw--th: 400;
+  --fw--td: 400;
+  --fw--b: 700;
+
+  /* The margin top ( mt ) variables. */
+
+  /* The margin right ( mr ) variables. */
+  --mr--object: 2.4rem;
+
+  /* The margin bottom ( mb ) variables. */
+  --mb--h1: 4rem;
+  --mb--h2: 3.2rem;
+  --mb--h3: 2rem;
+  --mb--h4: 1.8rem;
+  --mb--h5: 1.6rem;
+  --mb--h6: 1.4rem;
+  --mb--p: 1.2rem;
+  --mb--object: 3.6rem;
+  --mb--form-field: 2.4rem;
+  --mb--list: 1.6rem;
+  --mb--table: 1.6rem;
+
+  /* The margin left ( ml ) variables. */
+  --ml--object: 2.4rem;
+
+  /* The padding top ( pt ) variables. */
+  --pt--section: 12.8rem;
+  --pt--button: 3.6rem;
+  --pt--form-field: 0.8rem;
+  --pt--th: 0.8rem;
+  --pt--td: 0.8rem;
+
+  /* The padding right ( pr ) variables. */
+  --pr--object: 2.4rem;
+  --pr--button: 7.6rem;
+  --pr--form-field: 1.6rem;
+  --pr--th: 1.2rem;
+  --pr--td: 1.2rem;
+
+  /* The padding bottom ( pb ) variables. */
+  --pb--section: 12.8rem;
+  --pb--button: 3.6rem;
+  --pb--form-field: 0.8rem;
+  --pb--form-label-text: 0.4rem;
+  --pb--th: 0.8rem;
+  --pb--td: 0.8rem;
+
+  /* The padding left ( pl ) variables. */
+  --pl--object: 2.4rem;
+  --pl--button: 7.6rem;
+  --pl--form-field: 1.6rem;
+  --pl--th: 1.2rem;
+  --pl--td: 1.2rem;
+
+  /* The default color ( c ) variables. */
+  --c--white: #FFF;
+  --c--black: #000;
+
+  /* The white color ( wc ) variables. */
+  --wc--default: #FFF;
+
+  /* The black color ( bc ) variables. */
+  --bc--default: #333;
+  --bc--first: #111;
+  --bc--second: #242323;
+  --bc--third: #333;
+
+  /* The grey color ( gc ) variables. */
+  --gc--first: #F6F6F6;
+  --gc--second: #E4E3E3;
+  --gc--third: #EAEAEA;
+  --gc--fourth: #989797;
+
+  /* The status color ( sc ) variables. */
+  --sc--success: #3FC600;
+  --sc--neutral: #D47F00;
+  --sc--error: #CE0018;
+
+  /* The color variables for a website without a light / dark theme. */
+  @if $use-light-dark-theme == false {
+    /* The text color ( tc ) variables. */
+    --tc--default: #888888;
+    --tc--second: #434343;
+
+    --tc--on-ac-first: var(--c--white);
+    --tc--on-ac-second: #434343;
+
+    --tc--on-gc-first: var(--bc--default);
+
+    /* The link color ( lc ) variables. */
+    --lc--default: var(--ac--first);
+    --lc--visited: var(--ac--first);
+    --lc--hover: var(--ac--second);
+    --lc--active: var(--ac--second);
+
+    --lc--on-gc-first-default: var(--ac--first);
+    --lc--on-gc-first-visited: var(--ac--first);
+    --lc--on-gc-first-hover: var(--ac--second);
+    --lc--on-gc-first-active: var(--ac--second);
+
+    --lc--on-ac-first-default: var(--ac--second);
+    --lc--on-ac-first-visited: var(--ac--second);
+    --lc--on-ac-first-hover: var(--tc--on-ac-first);
+    --lc--on-ac-first-active: var(--tc--on-ac-first);
+
+    --lc--on-ac-second-default: var(--ac--first);
+    --lc--on-ac-second-visited: var(--ac--first);
+    --lc--on-ac-second-hover: var(--tc--on-ac-second);
+    --lc--on-ac-second-active: var(--tc--on-ac-second);
+
+    /* The accent colors. */
+    --ac--first: #FBA510;
+    --ac--second: #FFF5E4;
+
+    /* The background colors. */
+    --bgc--default: var(--gc--first);
+
+    /* The border colors. */
+    --bdc--default: var(--gc--first);
+    --bdc--on-ac-first: rgba(255, 255, 255, 0.4);
+    --bdc--on-ac-second: rgba(255, 255, 255, 0.4);
+
+    /* The table ( tbl ) variables. */
+    --tbl--bgc-header: var(--ac--first);
+    --tbl--bgc-odd-row: var(--gc--first);
+    --tbl--bgc-even-row: var(--gc--second);
+
+    --tbl--bgc-header-on-gc-first: var(--ac--first);
+    --tbl--bgc-odd-row-on-gc-first: var(--gc--second);
+    --tbl--bgc-even-row-on-gc-first: var(--gc--third);
+
+    --tbl--bgc-header-on-ac-first: var(--ac--second);
+    --tbl--bgc-odd-row-on-ac-first: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-first: var(--bc--second);
+
+    --tbl--bgc-header-on-ac-second: var(--ac--first);
+    --tbl--bgc-odd-row-on-ac-second: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-second: var(--bc--second);
+
+    --tbl--tc-header: var(--tc--on-ac-first);
+    --tbl--tc-row: var(--bc--default);
+
+    --tbl--tc-header-on-gc-first: var(--tc--on-ac-first);
+    --tbl--tc-row-on-gc-first: var(--bc--default);
+
+    --tbl--tc-header-on-ac-first: var(--tc--on-ac-second);
+    --tbl--tc-row-on-ac-first: var(--wc--default);
+
+    --tbl--tc-header-on-ac-second: var(--tc--on-ac-first);
+    --tbl--tc-row-on-ac-second: var(--wc--default);
+
+    /* The form ( fm ) variables. */
+    --fm--ac-color: var(--ac--first);
+    --fm--ac-color-on-gc-first: var(--ac--first);
+    --fm--ac-color-on-ac-first: var(--ac--second);
+    --fm--ac-color-on-ac-second: var(--ac--first);
+
+    /* The form field ( fmf ) variables. */
+    --fmf--bdc: var(--bdc--default);
+    --fmf--bdc-hover: var(--ac--first);
+
+    --fmf--bdc-on-gc-first:  var(--bdc--on-gc-first);
+    --fmf--bdc-on-gc-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-first:  var(--bdc--on-ac-first);
+    --fmf--bdc-on-ac-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-second:  var(--bdc--on-ac-second);
+    --fmf--bdc-on-ac-second-hover: var(--ac--first);
+  }
+
+}
+
+/* The color variables for a website with a light / dark theme. */
+@if $use-light-dark-theme == true {
+  :root[data-theme="light"] {
+    /* The text color ( tc ) variables. */
+    --tc--default: var(--bc--default);
+
+    --tc--on-ac-first: var(--c--black);
+    --tc--on-ac-second: var(--c--black);
+
+    --tc--on-gc-first: var(--bc--default);
+
+    /* The link color ( lc ) variables. */
+    --lc--default: var(--ac--first);
+    --lc--visited: var(--ac--first);
+    --lc--hover: var(--ac--second);
+    --lc--active: var(--ac--second);
+
+    --lc--on-gc-first-default: var(--ac--first);
+    --lc--on-gc-first-visited: var(--ac--first);
+    --lc--on-gc-first-hover: var(--ac--second);
+    --lc--on-gc-first-active: var(--ac--second);
+
+    --lc--on-ac-first-default: var(--ac--second);
+    --lc--on-ac-first-visited: var(--ac--second);
+    --lc--on-ac-first-hover: var(--tc--on-ac-first);
+    --lc--on-ac-first-active: var(--tc--on-ac-first);
+
+    --lc--on-ac-second-default: var(--ac--first);
+    --lc--on-ac-second-visited: var(--ac--first);
+    --lc--on-ac-second-hover: var(--tc--on-ac-second);
+    --lc--on-ac-second-active: var(--tc--on-ac-second);
+
+    /* The accent colors. */
+    --ac--first: red;
+    --ac--second: #68E0FF;
+
+    /* The background colors. */
+    --bgc--default: var(--c--white);
+
+    /* The border colors. */
+    --bdc--default: var(--gc--first);
+    --bdc--on-gc-first: var(--gc--third);
+    --bdc--on-ac-first: rgba(255, 255, 255, 0.4);
+    --bdc--on-ac-second: rgba(255, 255, 255, 0.4);
+
+    /* The table ( tbl ) variables. */
+    --tbl--bgc-header: var(--ac--first);
+    --tbl--bgc-odd-row: var(--gc--first);
+    --tbl--bgc-even-row: var(--gc--second);
+
+    --tbl--bgc-header-on-gc-first: var(--ac--first);
+    --tbl--bgc-odd-row-on-gc-first: var(--gc--second);
+    --tbl--bgc-even-row-on-gc-first: var(--gc--third);
+
+    --tbl--bgc-header-on-ac-first: var(--ac--second);
+    --tbl--bgc-odd-row-on-ac-first: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-first: var(--bc--second);
+
+    --tbl--bgc-header-on-ac-second: var(--ac--first);
+    --tbl--bgc-odd-row-on-ac-second: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-second: var(--bc--second);
+
+    --tbl--tc-header: var(--tc--on-ac-first);
+    --tbl--tc-row: var(--bc--default);
+
+    --tbl--tc-header-on-gc-first: var(--tc--on-ac-first);
+    --tbl--tc-row-on-gc-first: var(--bc--default);
+
+    --tbl--tc-header-on-ac-first: var(--tc--on-ac-second);
+    --tbl--tc-row-on-ac-first: var(--wc--default);
+
+    --tbl--tc-header-on-ac-second: var(--tc--on-ac-first);
+    --tbl--tc-row-on-ac-second: var(--wc--default);
+
+    /* The form ( fm ) variables. */
+    --fm--ac-color: var(--ac--first);
+    --fm--ac-color-on-gc-first: var(--ac--first);
+    --fm--ac-color-on-ac-first: var(--ac--second);
+    --fm--ac-color-on-ac-second: var(--ac--first);
+
+    /* The form field ( fmf ) variables. */
+    --fmf--bdc: var(--bdc--default);
+    --fmf--bdc-hover: var(--ac--first);
+
+    --fmf--bdc-on-gc-first:  var(--bdc--on-gc-first);
+    --fmf--bdc-on-gc-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-first:  var(--bdc--on-ac-first);
+    --fmf--bdc-on-ac-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-second:  var(--bdc--on-ac-second);
+    --fmf--bdc-on-ac-second-hover: var(--ac--first);
+  }
+  :root[data-theme="dark"] {
+    /* The text color ( tc ) variables. */
+    --tc--default: var(--wc--default);
+
+    --tc--on-ac-first: var(--c--black);
+    --tc--on-ac-second: var(--c--black);
+
+    --tc--on-gc-first: var(--bc--default);
+
+    /* The link color ( lc ) variables. */
+    --lc--default: var(--ac--first);
+    --lc--visited: var(--ac--first);
+    --lc--hover: var(--ac--second);
+    --lc--active: var(--ac--second);
+
+    --lc--on-gc-first-default: var(--ac--first);
+    --lc--on-gc-first-visited: var(--ac--first);
+    --lc--on-gc-first-hover: var(--ac--second);
+    --lc--on-gc-first-active: var(--ac--second);
+
+    --lc--on-ac-first-default: var(--ac--second);
+    --lc--on-ac-first-visited: var(--ac--second);
+    --lc--on-ac-first-hover: var(--tc--on-ac-first);
+    --lc--on-ac-first-active: var(--tc--on-ac-first);
+
+    --lc--on-ac-second-default: var(--ac--first);
+    --lc--on-ac-second-visited: var(--ac--first);
+    --lc--on-ac-second-hover: var(--tc--on-ac-second);
+    --lc--on-ac-second-active: var(--tc--on-ac-second);
+
+    /* The accent color ( ac ) variables. */
+    --ac--first: red;
+    --ac--second: #68E0FF;
+
+    /* The background color ( bgc ) variables. */
+    --bgc--default: var(--c--black);
+
+    /* The border color ( bdc ) variables. */
+    --bdc--default: var(--bc--second);
+    --bdc--on-gc-first: var(--gc--third);
+    --bdc--on-ac-first: rgba(255, 255, 255, 0.4);
+    --bdc--on-ac-second: rgba(255, 255, 255, 0.4);
+
+    /* The table ( tbl ) variables. */
+    --tbl--bgc-header: var(--ac--first);
+    --tbl--bgc-odd-row: var(--bc--first);
+    --tbl--bgc-even-row: var(--bc--second);
+
+    --tbl--bgc-header-on-gc-first: var(--ac--first);
+    --tbl--bgc-odd-row-on-gc-first: var(--gc--second);
+    --tbl--bgc-even-row-on-gc-first: var(--gc--third);
+
+    --tbl--bgc-header-on-ac-first: var(--ac--second);
+    --tbl--bgc-odd-row-on-ac-first: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-first: var(--bc--second);
+
+    --tbl--bgc-header-on-ac-second: var(--ac--first);
+    --tbl--bgc-odd-row-on-ac-second: var(--bc--first);
+    --tbl--bgc-even-row-on-ac-second: var(--bc--second);
+
+    --tbl--tc-header: var(--tc--on-ac-first);
+    --tbl--tc-row: var(--wc--default);
+
+    --tbl--tc-header-on-gc-first: var(--tc--on-ac-first);
+    --tbl--tc-row-on-gc-first: var(--bc--default);
+
+    --tbl--tc-header-on-ac-first: var(--tc--on-ac-second);
+    --tbl--tc-row-on-ac-first: var(--wc--default);
+
+    --tbl--tc-header-on-ac-second: var(--tc--on-ac-first);
+    --tbl--tc-row-on-ac-second: var(--wc--default);
+
+    /* The form ( fm ) variables. */
+    --fm--ac-color: var(--ac--first);
+    --fm--ac-color-on-gc-first: var(--ac--first);
+    --fm--ac-color-on-ac-first: var(--ac--second);
+    --fm--ac-color-on-ac-second: var(--ac--first);
+
+    /* The form field ( fmf ) variables. */
+    --fmf--bdc: var(--bdc--default);
+    --fmf--bdc-hover: var(--ac--first);
+
+    --fmf--bdc-on-gc-first:  var(--bdc--on-gc-first);
+    --fmf--bdc-on-gc-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-first:  var(--bdc--on-ac-first);
+    --fmf--bdc-on-ac-first-hover: var(--ac--second);
+
+    --fmf--bdc-on-ac-second:  var(--bdc--on-ac-second);
+    --fmf--bdc-on-ac-second-hover: var(--ac--first);
+  }
+}

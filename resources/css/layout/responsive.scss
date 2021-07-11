@@ -1,0 +1,115 @@
+@mixin responsive-layout {
+
+  &--grid-parent {
+    display: grid;
+    grid-template-columns: repeat( 12, 1fr );
+  }
+
+  /* Background colors are not included, would probably be used very rarely and
+     costs too much file size. */
+  &--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+    &--1 { grid-column: span 1; }
+    &--2 { grid-column: span 2; }
+    &--3 { grid-column: span 3; }
+    &--4 { grid-column: span 4; }
+    &--5 { grid-column: span 5; }
+    &--6 { grid-column: span 6; }
+    &--7 { grid-column: span 7; }
+    &--8 { grid-column: span 8; }
+    &--9 { grid-column: span 9; }
+    &--10 { grid-column: span 10; }
+    &--11 { grid-column: span 11; }
+    &--12 { grid-column: span 12; }
+  }
+
+}
+
+@mixin responsive-spaces {
+
+  &--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+
+  &--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+
+}
+
+/* A prefix to only apply the styles from desktop size. */
+@include from-desktop {
+  .fd {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+
+/* A prefix to only apply the styles from desktop menu size. */
+@include from-desktop-menu {
+  .fdm {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+/* A prefix to only apply the styles till mobile menu size. */
+@include till-mobile-menu {
+  .tmm {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+
+/* A prefix to only apply the styles till large tablet size. */
+@include till-large-tablet {
+  .tlt {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+/* A prefix to only apply the styles on large tablet size. */
+@include only-large-tablet {
+  .olt {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+/* A prefix to only apply the styles from large tablet size. */
+@include from-large-tablet {
+  .flt {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+
+/* A prefix to only apply the styles till small tablet size. */
+@include till-small-tablet {
+  .tst {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+/* A prefix to only apply the styles on small tablet size. */
+@include only-small-tablet {
+  .ost {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+/* A prefix to only apply the styles from small tablet size. */
+@include from-small-tablet {
+  .fst {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}
+
+/* A prefix to only apply the styles till mobile size. */
+@include till-mobile {
+  .tm {
+    @include responsive-layout;
+    @include responsive-spaces;
+  }
+}

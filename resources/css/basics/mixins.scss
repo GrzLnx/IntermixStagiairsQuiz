@@ -1,0 +1,243 @@
+/* A mixin to overrule the default style. Using this should be avoided! */
+@mixin overrule( $specificity: 10 ) {
+
+  @if $specificity == 10 {
+    .ub__html {
+      @content;
+    }
+  }
+  @if $specificity == 20 {
+    .ub__html .ub__body {
+      @content;
+    }
+  }
+  @if $specificity == 20 {
+    .ub__html .ub__body .section {
+      @content;
+    }
+  }
+  @if $specificity > 30 {
+    #ultibase {
+      @content;
+    }
+  }
+
+}
+
+/* Only apply styles from desktop size ( 1024px ). */
+@mixin from-desktop {
+  @media( min-width: 1024px ) {
+    @content;
+  }
+}
+
+/* Only apply styles from when the desktop menu is visible ( 1248px ). */
+@mixin from-desktop-menu {
+  @media( min-width: 1248px ) {
+    @content;
+  }
+}
+/* Only apply styles till the mobile menu is visible ( 1248px ). */
+@mixin till-mobile-menu {
+  @media( max-width: 1247px ) {
+    @content;
+  }
+}
+
+/* Only apply styles till large tablet size ( 1023px ). */
+@mixin till-large-tablet {
+  @media( max-width: 1023px ) {
+    @content;
+  }
+}
+/* Only apply styles on large tablet size ( 768px till 1023px ). */
+@mixin only-large-tablet {
+  @media( min-width: 768px ) and ( max-width: 1023px ) {
+    @content;
+  }
+}
+/* Only apply styles from large tablet size ( 768px ). */
+@mixin from-large-tablet {
+  @media( min-width: 768px ) {
+    @content;
+  }
+}
+
+/* Only apply styles till small tablet size ( 767px ). */
+@mixin till-small-tablet {
+  @media( max-width: 767px ) {
+    @content;
+  }
+}
+/* Only apply styles on small tablet size ( 468px till 767px ). */
+@mixin only-small-tablet {
+  @media( min-width: 468px ) and ( max-width: 767px ) {
+    @content;
+  }
+}
+/* Only apply styles from small tablet size ( 468px ). */
+@mixin from-small-tablet {
+  @media( min-width: 468px ) {
+    @content;
+  }
+}
+
+/* Only apply styles till mobile size ( 467px ). */
+@mixin till-mobile {
+  @media( max-width: 467px ) {
+    @content;
+  }
+}
+
+/* A mixin to shorten the code to write for an interaction. */
+@mixin interaction {
+  &:hover,
+  &:focus,
+  &:active {
+    @content;
+  }
+}
+
+/* A mixin to make an object easily responsive. */
+@mixin responsive( $min-width: 300, $vertical-spacing: '10px', $horizontal-spacing: '10px', $automatic-responsive: true ) {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax( #{ $min-width }px, 1fr ) );
+  grid-column-gap: #{ $vertical-spacing };
+  grid-row-gap: #{ $horizontal-spacing };
+  @if $min-width > 250 and $automatic-responsive == true {
+    @media( max-width: 348px ) {
+      grid-template-columns: repeat( auto-fill, minmax( 100%, 1fr ) );
+    }
+  }
+}
+
+/* Sets a pre-defined box-shadow. */
+@mixin box-shadow( $type: 'soft' ) {
+
+  @if $type == 'soft' {
+    box-shadow: 0 0 12px 0 rgba(36, 35, 35, 0.1);
+  }
+  @if $type == 'hard' {
+    box-shadow: 0 0 18px 0 rgba(36, 35, 35, 0.2);
+  }
+
+}
+
+/* Sets a background color and changes the colors of the text, links, buttons etc.
+   so everything is still readable. */
+@mixin background-color( $color: 'bgc--default' ) {
+
+  @if $color == 'bgc--default' {
+
+    background-color: var(--bgc--default);
+    color: var(--tc--default);
+
+    --bgc--default: var(--bgc--default);
+    a:not(.button) {
+      @extend %link;
+    }
+
+  }
+
+  @if $color == 'gc--first' {
+
+    background-color: var(--gc--first);
+    color: var(--tc--on-gc-first);
+
+    --tc--default: var(--tc--on-gc-first);
+
+    --bgc--default: var(--gc--first);
+
+    --bdc--default: var(--bdc--on-gc-first);
+
+    /* Form colors. */
+    --fm--ac-color: var(--fm--ac-color-on-gc-first);
+
+    /* Form field colors. */
+    --fmf--bdc: var(--fmf--bdc-on-gc-first);
+    --fmf--bdc-hover: var(--fmf--bdc-on-gc-first-hover);
+
+    /* Table colors. */
+    --tbl--bgc-header: var(--tbl--bgc-header-on-gc-first);
+    --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-gc-first);
+    --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-gc-first);
+
+    --tbl--tc-header: var(--tbl--tc-header-on-gc-first);
+    --tbl--tc-row: var(--tbl--tc-row-on-gc-first);
+    
+    a:not(.button) {
+      @extend %link;
+    }
+
+  }
+
+  @if $color == 'ac--first' {
+
+    background-color: var(--ac--first);
+    color: var(--tc--on-ac-first);
+    
+    --tc--default: var(--tc--on-ac-first);
+
+    --bgc--default: var(--ac--first);
+    
+    --bdc--default: var(--bdc--on-ac-first);
+
+    /* Form colors. */
+    --fm--ac-color: var(--fm--ac-color-on-ac-first);
+    
+    /* Form field colors. */
+    --fmf--bdc: var(--fmf--bdc-on-ac-first);
+    --fmf--bdc-hover: var(--fmf--bdc-on-ac-first-hover);
+    
+    /* Table colors. */
+    --tbl--bgc-header: var(--tbl--bgc-header-on-ac-first);
+    --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-ac-first);
+    --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-ac-first);
+
+    --tbl--tc-header: var(--tbl--tc-header-on-ac-first);
+    --tbl--tc-row: var(--tbl--tc-row-on-ac-first);
+    
+    a:not(.button) {
+      @extend %link-on-ac-first;
+    }
+    .button--first {
+      @extend %button--white;
+    }
+
+  }
+
+  @if $color == 'ac--second' {
+
+    background-color: var(--ac--second);
+    color: var(--tc--on-ac-second);
+
+    --tc--default: var(--tc--on-ac-second);
+
+    --bgc--default: var(--ac--second);
+
+    --bdc--default: var(--bdc--on-ac-second);
+
+    /* Form colors. */
+    --fm--ac-color: var(--fm--ac-color-on-ac-second);
+
+    /* Form field colors. */
+    --fmf--bdc: var(--fmf--bdc-on-ac-second);
+    --fmf--bdc-hover: var(--fmf--bdc-on-ac-second-hover);
+
+    /* Table colors. */
+    --tbl--bgc-header: var(--tbl--bgc-header-on-ac-second);
+    --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-ac-second);
+    --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-ac-second);
+
+    --tbl--tc-header: var(--tbl--tc-header-on-ac-second);
+    --tbl--tc-row: var(--tbl--tc-row-on-ac-second);
+    a:not(.button) {
+      @extend %link-on-ac-second;
+    }
+    .button--second {
+      @extend %button--white;
+    }
+
+  }
+
+}

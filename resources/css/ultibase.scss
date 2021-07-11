@@ -1,0 +1,65 @@
+/**
+* The default includes.
+*/
+
+/* The mixins. */
+@import 'basics/mixins';
+
+/* The reset. */
+@import 'basics/reset';
+
+/* The settings. */
+@import 'basics/settings';
+
+/* The variables. */
+@import 'basics/variables';
+
+/* The typography. */
+@import 'basics/typography';
+
+/* The lists. */
+@import 'basics/lists';
+
+/* The buttons. */
+@import 'basics/buttons';
+
+/* The forms. */
+@import 'basics/forms';
+
+
+/**
+* The layout includes.
+*/
+
+/* The default layout styling. */
+@import 'layout/layout';
+
+/* The grid layout. */
+@import 'layout/grid';
+
+/* Responsive styling. */
+@import 'layout/responsive';
+
+/* The sections layout. */
+@import 'layout/section';
+
+/* The object layout. */
+@import 'layout/object';
+
+/* The item layout. */
+@import 'layout/item';
+
+
+/**
+* The object includes.
+*/
+
+/* The tables. */
+@import 'objects/tables';
+
+
+/**
+* The custom style includes.
+*/
+
+@import 'custom/custom';

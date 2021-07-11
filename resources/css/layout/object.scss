@@ -1,0 +1,11 @@
+/* The object blueprint. */
+%object {
+  margin-bottom: var(--mb--object);
+  padding-right: var(--pr--object);
+  padding-left: var(--pl--object);
+}
+
+/* Styling the object class. */
+.object {
+  @extend %object;
+}

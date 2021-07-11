@@ -1,0 +1,38 @@
+/* The blueprint for the table. */
+%table {
+  display: table;
+  width: 100%;
+  margin-bottom: var(--mb--table);
+  border-collapse: collapse;
+  
+  /* Styling the table head and header row. */
+  thead > tr {
+    background-color: var(--tbl--bgc-header);
+  }
+  th {
+    padding: var(--pt--th) var(--pr--th) var(--pb--th) var(--pl--th);
+    color: var(--tbl--tc-header);
+    font-weight: var(--fw--th);
+    text-align: left;
+  }
+
+  /* Styling the table rows and content. */
+  tbody > tr:nth-of-type(odd) {
+    background-color: var(--tbl--bgc-odd-row);
+  }
+  tbody > tr:nth-of-type(even) {
+    background-color: var(--tbl--bgc-even-row);
+  }
+  td {
+    padding: var(--pt--td) var(--pr--td) var(--pb--td) var(--pl--td);
+    color: var(--tbl--tc-row);
+    font-weight: var(--fw--td);
+  }
+  
+}
+
+/* Including the styles for the table. */
+table, 
+.table {
+  @extend %table;
+}

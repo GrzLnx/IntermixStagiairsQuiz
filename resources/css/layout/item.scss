@@ -1,0 +1,11 @@
+/* The item blueprint. */
+%item {
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Styling the item class. */
+.item {
+  @extend %item;
+}

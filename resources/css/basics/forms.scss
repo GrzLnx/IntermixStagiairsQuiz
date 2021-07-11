@@ -1,0 +1,191 @@
+/* The blueprint for a form field. */
+%field {
+  width: 100%;
+  padding: var(--pt--form-field) var(--pr--form-field) var(--pb--form-field) var(--pl--form-field);
+  font-family: var(--ff--text);
+  font-size: var(--fs--default);
+  line-height: var(--lh--default);
+  color: var(--tc--default);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--fmf--bdc);
+  outline: none;
+  @include interaction {
+    border-color: var(--fmf--bdc-hover);
+  }
+}
+
+/* The blueprint for a form icon. */
+%form-icon {
+  position: relative;
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 1px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid currentColor;
+  box-sizing: border-box;
+  &::before {
+    position: absolute;
+    content: '';
+    border-radius: inherit;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background-color: transparent;
+  }
+}
+
+/* Styling the form. */
+.form {
+  --form-label--height: 28px;
+}
+/* Styling the form fields. */
+.form__field {
+  position: relative;
+  margin-bottom: var(--mb--form-field);
+  &[data-js-form-field-status="true"] {
+    .form-field-status__icon::before {
+      content: '\E934';
+      font-family: var(--ff--icons);
+      color: var(--sc--success);
+    }
+  }
+  &[data-js-form-field-status="false"] {
+    .form-field-status__icon::before {
+      content: '\E935';
+      font-family: var(--ff--icons);
+      color: var(--sc--error);
+    }
+  }
+}
+
+.form-field-label__text {
+  display: block;
+  width: 100%;
+  padding-bottom: var(--pb--form-label-text);
+}
+
+/* Styling the form fields. */
+input[type="text"] {
+  @extend %field;
+}
+input[type="number"] {
+  @extend %field;
+}
+input[type="date"] {
+  @extend %field;
+}
+input[type="password"] {
+  @extend %field;
+}
+textarea {
+  @extend %field;
+}
+
+/* Styling the form field with multiple radios. */
+.form__field-radios {
+  .form-field-status__icon {
+    height: 24px;
+  }
+  &--inline {
+    .form-field__label {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .form-field__radio {
+      margin-right: 12px;
+    }
+  }
+}
+
+/* Styling a single radio field. */
+.form-field__radio {
+  display: flex;
+  align-items: center;
+  input[type="radio"] {
+    display: none;
+    &:checked + .form-field-radio__icon::before {
+      background-color: var(--fm--ac-color);
+    }
+  }
+  @include interaction {
+    color: var(--fm--ac-color);
+  }
+}
+.form-field-radio__icon {
+  @extend %form-icon;
+  border-radius: 50%;
+  &::before {
+    border-radius: inherit;
+  }
+}
+
+/* Styling the form field with multiple checkboxes. */
+.form__field-checkboxes {
+  .form-field-status__icon {
+    height: 24px;
+  }
+}
+
+/* Styling a single checkbox field. */
+.form-field__checkbox {
+  display: flex;
+  align-items: center;
+  input[type="checkbox"] {
+    display: none;
+    &:checked + .form-field-checkbox__icon::before {
+      background-color: var(--fm--ac-color);
+    }
+  }
+  @include interaction {
+    color: var(--fm--ac-color);
+  }
+  .form-field-status__icon {
+    height: 24px;
+  }
+}
+.form-field-checkbox__icon {
+  @extend %form-icon;
+  border-radius: 2px;
+  &::before {
+    border-radius: 1px;
+  }
+}
+
+/* Styling the form field status tooltip. */
+.form-field__status {
+  position: absolute;
+  top: var(--form-label--height);
+  right: 0;
+  color: var(--tc--default);
+  &:hover {
+    .form-field-status__tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+.form-field-status__tooltip {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: 100%;
+  width: max-content;
+  transform: translateX(-50%);
+  padding: 8px 24px;
+  border: 1px solid var(--bdc--default);
+  background: var(--bgc--default);
+  font-size: var(--fs--small);
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  z-index: 14;
+}
+.form-field-status__icon {
+  display: flex;
+  width: 41px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+}

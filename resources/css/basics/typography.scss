@@ -1,0 +1,190 @@
+/* Import the font-family. */
+@import url( 'https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap' );
+
+/* Import the icons. */
+@font-face {
+  font-family: 'linearicons';
+  src: url( '/includes/fonts/linearicons.ttf' );
+}
+
+/* Setting the correct font-size ( 16px with the default browser settings ). */
+html {
+  font-size: 62.5%; /* 16px * 0.625 = 10px. */
+}
+body {
+  font-family: var(--ff--text);
+  font-size: var(--fs--default); /* 1.6rem = 16px. */
+  line-height: var(--lh--default);
+  color: var(--tc--default);
+}
+
+/* Styling the titles. */
+%title {
+  font-family: var(--ff--title);
+    color: var(--tc--second);
+}
+h1, h2, h3, h4, h5, h6 {
+  @extend %title;
+}
+
+/* Styling the h1. */
+%h1 {
+  font-size: var(--fs--h1);
+  font-weight: var(--fw--h1);
+  line-height: var(--lh--h1);
+  margin-bottom: var(--mb--h1);
+}
+h1 {
+  @extend %h1;
+}
+
+/* Styling the h2. */
+%h2 {
+  font-size: var(--fs--h2);
+  font-weight: var(--fw--h2);
+  line-height: var(--lh--h2);
+  margin-bottom: var(--mb--h2);
+}
+h2 {
+  @extend %h2;
+}
+
+/* Styling the h3. */
+%h3 {
+  font-size: var(--fs--h3);
+  font-weight: var(--fw--h3);
+  line-height: var(--lh--h3);
+  margin-bottom: var(--mb--h3);
+}
+h3 {
+  @extend %h3;
+}
+
+/* Styling the h4. */
+%h4 {
+  font-size: var(--fs--h4);
+  font-weight: var(--fw--h4);
+  line-height: var(--lh--h4);
+  margin-bottom: var(--mb--h4);
+}
+h4 {
+  @extend %h4;
+}
+
+/* Styling the h5. */
+%h5 {
+  font-size: var(--fs--h5);
+  font-weight: var(--fw--h5);
+  line-height: var(--lh--h5);
+  margin-bottom: var(--mb--h5);
+}
+h5 {
+  @extend %h5;
+}
+
+/* Styling the h6. */
+%h6 {
+  font-size: var(--fs--h6);
+  font-weight: var(--fw--h6);
+  line-height: var(--lh--h6);
+  margin-bottom: var(--mb--h6);
+}
+h6 {
+  @extend %h6;
+}
+
+/* Styling the paragraph. */
+p {
+  margin-bottom: var(--mb--p);
+}
+
+/* Styling the links ( a ). */
+%link {
+  color: var(--lc--default);
+  &:visited {
+    color: var(--lc--visited);
+  }
+  &:hover {
+    color: var(--lc--hover);
+  }
+  &:active {
+    color: var(--lc--active);
+  }
+}
+%link-on-ac-first {
+  color: var(--lc--on-ac-first-default);
+  &:visited {
+    color: var(--lc--on-ac-first-visited);
+  }
+  &:hover {
+    color: var(--lc--on-ac-first-hover);
+  }
+  &:active {
+    color: var(--lc--on-ac-first-active);
+  }
+}
+%link-on-ac-second {
+  color: var(--lc--on-ac-second-default);
+  &:visited {
+    color: var(--lc--on-ac-second-visited);
+  }
+  &:hover {
+    color: var(--lc--on-ac-second-hover);
+  }
+  &:active {
+    color: var(--lc--on-ac-second-active);
+  }
+}
+
+a:not(.button) {
+  @extend %link;
+}
+
+/* Styling the bold and strong text. */
+b, strong {
+  font-weight: var(--fw--b);
+}
+
+/* Styling the underlined text. */
+u {
+  text-decoration: underline;
+}
+
+/* Styling the italic and emphasized text. */
+i, em {
+  font-style: italic;
+}
+
+/* Making sure the title belongs to a new part of the page by adding
+   white space on top when there is content above. */
+p, ul, ol, table {
+  & + h1 {
+    margin-top: calc(var(--mb--h1) + var(--mb--p));
+  }
+  & + h2 {
+    margin-top: calc(var(--mb--h2) + var(--mb--p));
+  }
+  & + h3 {
+    margin-top: calc(var(--mb--h3) + var(--mb--p));
+  }
+  & + h4 {
+    margin-top: calc(var(--mb--h4) + var(--mb--p));
+  }
+  & + h5 {
+    margin-top: calc(var(--mb--h5) + var(--mb--p));
+  }
+  & + h6 {
+    margin-top: calc(var(--mb--h6) + var(--mb--p));
+  }
+}
+
+/* Styling text. */
+%text {
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.text {
+  @extend %text;
+}

@@ -1,0 +1,120 @@
+/* A list with round bullets. */
+%list-round-bullets {
+  margin-bottom: var(--mb--list);
+  > li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4px 0;
+    &::before {
+      content: "";
+      display: inline-block;
+      height: 7px;
+      width: 7px;
+      margin-right: 6px;
+      background-color: currentColor;
+      border-radius: 50%;
+    }
+  }
+}
+ul {
+  @extend %list-round-bullets;
+}
+
+/* A list with square bullets. */
+%list-square-bullets {
+  > li {
+    &::before {
+      border-radius: 0;
+    }
+  }
+}
+.list--square-bullets {
+  @extend %list-square-bullets;
+}
+
+/* A list with check marks. */
+%list-check-marks {
+  > li {
+    &::before {
+      content: "\E934";
+      width: unset;
+      height: unset;
+      font-family:var(--ff--icons);
+      background-color: unset;
+    }
+  }
+}
+.list--check-marks {
+  @extend %list-check-marks;
+}
+
+/* A list with cross marks. */
+%list-cross-marks {
+  > li {
+    &::before {
+      content: "\E935";
+      width: unset;
+      height: unset;
+      font-family:var(--ff--icons);
+      background-color: unset;
+    }
+  }
+}
+.list--cross-marks {
+  @extend %list-cross-marks;
+}
+
+/* A list with arrows. */
+%list-arrows {
+  > li {
+    &::before {
+      content: "\E944";
+      width: unset;
+      height: unset;
+      font-family:var(--ff--icons);
+      background-color: unset;
+    }
+  }
+}
+.list--arrows {
+  @extend %list-arrows;
+}
+
+/* A list with numbers. */
+%list-numbers {
+  margin-bottom: var(--mb--list);
+  list-style-type: decimal;
+  list-style-position: inside;
+  li {
+    margin: 4px 0;
+  }
+}
+ol {
+  @extend %list-numbers;
+}
+
+/* A list with roman numbers. */
+%list-roman-numbers {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+.list--roman-numbers {
+  @extend %list-roman-numbers;
+}
+
+/* Styling lists inside a list. */
+ul ul, 
+ol ol, 
+ul ol, 
+ol ul {
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 16px;
+}
+
+/* Fixing the margin bottom space. */
+li ul > li:last-child, 
+li ol > li:last-child {
+  margin-bottom: 0;
+}

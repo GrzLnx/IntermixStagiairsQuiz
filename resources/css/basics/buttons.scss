@@ -1,0 +1,63 @@
+/* The blueprint for a button. */
+%button {
+  display: inline-grid;
+  padding: var(--pt--button) var(--pr--button) var(--pb--button) var(--pl--button);
+  font-size: var(--fs--button);
+  line-height: var(--lh--button);
+  font-weight: var(--fw--button);
+  font-family: var(--ff--button);
+  border: none;
+    border-radius:8px;
+  text-decoration: none;
+  @include interaction {
+    opacity: 0.85;
+  }
+  @include till-mobile {
+    & + & {
+      margin-left: 12px;
+    }
+  }
+  @include till-small-tablet {
+    width: 100%;
+  }
+}
+
+/* The blueprint for a white button. */
+%button--white {
+  background-color: var(--c--white);
+  color: var(--bc--default);
+}
+/* The blueprint for a first accent button. */
+%button--ac--first {
+  background-color: var(--ac--first);
+  color: var(--tc--on-ac-first);
+    &[disabled] {
+        background-color: var(--ac--second);
+        color:var(--tc--on-ac-second);
+    }
+}
+/* The blueprint for a second accent button. */
+%button--ac--second {
+  background-color: var(--ac--second);
+  color: var(--tc--on-ac-second);
+}
+
+/* Styling the buttons. */
+input[type="submit"] {
+  @extend %button;
+}
+button {
+  @extend %button;
+}
+.button {
+  @extend %button;
+}
+.button--white {
+  @extend %button--white;
+}
+.button--first {
+  @extend %button--ac--first;
+}
+.button--second {
+  @extend %button--ac--second;
+}
