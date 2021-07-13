@@ -119,6 +119,7 @@ progress {
     grid-gap: 16px;
 
     label {
+        cursor: pointer;
         border: 1px solid var(--gc--second);
         border-radius: 8px;
         padding: 7.2rem 1.2rem;

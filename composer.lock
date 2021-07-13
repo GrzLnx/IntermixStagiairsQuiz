@@ -370,7 +370,7 @@
             },
             "require": {
                 "doctrine/lexer": "^1.0.1",
-                "php": ">=5.5",
+                "php": ">=5.5|^8.0",
                 "symfony/polyfill-intl-idn": "^1.10"
             },
             "require-dev": {
@@ -438,7 +438,7 @@
             },
             "require": {
                 "illuminate/contracts": "^5.0|^6.0|^7.0|^8.0|^9.0",
-                "php": ">=5.4.0"
+                "php": ">=5.4.0|^8.0"
             },
             "require-dev": {
                 "illuminate/http": "^5.0|^6.0|^7.0|^8.0|^9.0",
@@ -498,7 +498,7 @@
                 "asm89/stack-cors": "^2.0.1",
                 "illuminate/contracts": "^6|^7|^8|^9",
                 "illuminate/support": "^6|^7|^8|^9",
-                "php": ">=7.2",
+                "php": ">=7.2|^8.0",
                 "symfony/http-foundation": "^4|^5",
                 "symfony/http-kernel": "^4.3.4|^5"
             },
@@ -741,7 +741,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=5.5|^8.0"
             },
             "require-dev": {
                 "symfony/phpunit-bridge": "^4.4 || ^5.1"
@@ -1363,7 +1363,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": ">=7.2|^8.0",
                 "psr/log": "^1.0.1"
             },
             "provide": {
@@ -1553,7 +1553,7 @@
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=7.0"
+                "php": ">=7.0|^8.0"
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
@@ -1742,7 +1742,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=7.2.0|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -1790,7 +1790,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "php": ">=7.2.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -1892,7 +1892,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0",
+                "php": ">=7.0.0|^8.0",
                 "psr/http-message": "^1.0"
             },
             "type": "library",
@@ -1947,7 +1947,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2000,7 +2000,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2050,7 +2050,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2176,7 +2176,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=5.6|^8.0"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.1",
@@ -2390,7 +2390,7 @@
             },
             "require": {
                 "egulias/email-validator": "^2.0|^3.1",
-                "php": ">=7.0.0",
+                "php": ">=7.0.0|^8.0",
                 "symfony/polyfill-iconv": "^1.0",
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0"
@@ -2464,7 +2464,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php73": "^1.8",
@@ -2562,7 +2562,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5"
+                "php": ">=7.2.5|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -2627,7 +2627,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2694,7 +2694,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "psr/log": "^1.0",
                 "symfony/polyfill-php80": "^1.15",
                 "symfony/var-dumper": "^4.4|^5.0"
@@ -2763,7 +2763,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/event-dispatcher-contracts": "^2",
                 "symfony/polyfill-php80": "^1.15"
@@ -2848,7 +2848,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "psr/event-dispatcher": "^1"
             },
             "suggest": {
@@ -2927,7 +2927,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5"
+                "php": ">=7.2.5|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -2988,7 +2988,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5"
+                "php": ">=7.2.5|^8.0"
             },
             "suggest": {
                 "symfony/http-client-implementation": ""
@@ -3066,7 +3066,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-mbstring": "~1.1",
                 "symfony/polyfill-php80": "^1.15"
@@ -3139,7 +3139,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "psr/log": "~1.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/error-handler": "^4.4|^5.0",
@@ -3251,7 +3251,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0",
@@ -3334,7 +3334,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "suggest": {
                 "ext-ctype": "For best performance"
@@ -3413,7 +3413,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "suggest": {
                 "ext-iconv": "For best performance"
@@ -3493,7 +3493,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -3574,7 +3574,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1",
+                "php": ">=7.1|^8.0",
                 "symfony/polyfill-intl-normalizer": "^1.10",
                 "symfony/polyfill-php72": "^1.10"
             },
@@ -3661,7 +3661,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -3745,7 +3745,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "suggest": {
                 "ext-mbstring": "For best performance"
@@ -3825,7 +3825,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "type": "library",
             "extra": {
@@ -3901,7 +3901,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "type": "library",
             "extra": {
@@ -3980,7 +3980,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.1|^8.0"
             },
             "type": "library",
             "extra": {
@@ -4063,7 +4063,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/polyfill-php80": "^1.15"
             },
             "type": "library",
@@ -4125,7 +4125,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-php80": "^1.15"
             },
@@ -4215,7 +4215,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "psr/container": "^1.1"
             },
             "suggest": {
@@ -4294,7 +4294,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -4377,7 +4377,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/deprecation-contracts": "^2.1",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php80": "^1.15",
@@ -4472,7 +4472,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5"
+                "php": ">=7.2.5|^8.0"
             },
             "suggest": {
                 "symfony/translation-implementation": ""
@@ -4550,7 +4550,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=7.2.5|^8.0",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php80": "^1.15"
             },
@@ -4771,7 +4771,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0"
+                "php": ">=7.0.0|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
@@ -5904,7 +5904,7 @@
             },
             "require": {
                 "doctrine/instantiator": "^1.2",
-                "php": "^7.2 || ~8.0, <8.1",
+                "php": "^7.2|^8.0",
                 "phpdocumentor/reflection-docblock": "^5.2",
                 "sebastian/comparator": "^3.0 || ^4.0",
                 "sebastian/recursion-context": "^3.0 || ^4.0"
@@ -5974,7 +5974,7 @@
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
                 "nikic/php-parser": "^4.10.2",
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
                 "sebastian/code-unit-reverse-lookup": "^2.0.2",
@@ -6047,7 +6047,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6107,7 +6107,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "ext-pcntl": "*",
@@ -6170,7 +6170,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6229,7 +6229,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6298,7 +6298,7 @@
                 "myclabs/deep-copy": "^1.10.1",
                 "phar-io/manifest": "^2.0.1",
                 "phar-io/version": "^3.0.2",
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "phpspec/prophecy": "^1.12.1",
                 "phpunit/php-code-coverage": "^9.2.3",
                 "phpunit/php-file-iterator": "^3.0.5",
@@ -6391,7 +6391,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6447,7 +6447,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6503,7 +6503,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6558,7 +6558,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "sebastian/diff": "^4.0",
                 "sebastian/exporter": "^4.0"
             },
@@ -6633,7 +6633,7 @@
             },
             "require": {
                 "nikic/php-parser": "^4.7",
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6689,7 +6689,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3",
@@ -6755,7 +6755,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -6818,7 +6818,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "sebastian/recursion-context": "^4.0"
             },
             "require-dev": {
@@ -6895,7 +6895,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -6960,7 +6960,7 @@
             },
             "require": {
                 "nikic/php-parser": "^4.6",
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -7016,7 +7016,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=7.3|^8.0",
                 "sebastian/object-reflector": "^2.0",
                 "sebastian/recursion-context": "^4.0"
             },
@@ -7073,7 +7073,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -7128,7 +7128,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -7191,7 +7191,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
@@ -7246,7 +7246,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.3"
@@ -7302,7 +7302,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.3|^8.0"
             },
             "type": "library",
             "extra": {
