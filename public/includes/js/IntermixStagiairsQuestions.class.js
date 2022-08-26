@@ -19,7 +19,7 @@ class IntermixStagiairsQuestions {
         {
             id : 1,
             question_type : 'name',
-            question_title : 'Vul je naam in',
+            question_title : 'Vul je naam hierboven in',
             question_name : 'name',
             question_placeholder : '',
             question_options : [],
@@ -36,56 +36,115 @@ class IntermixStagiairsQuestions {
                 id : 1,
                 text : '1',
                 value: 1,
-                description: 'Volledig incompetent, je kan net een HTML pagina maken.'
+                description: ''
             }, {
                 id : 2,
                 text : '2',
                 value: 2,
-                description: 'Flinke aardappel, verder dan een pagina met een titel kom je niet.'
+                description: ''
             }, {
                 id : 3,
                 text : '3',
                 value: 3,
-                description: 'Redelijke basis, een simpele HTML pagina lukt jou wel.'
+                description: ''
             }, {
                 id : 4,
                 text : '4',
                 value: 4,
-                description: 'Wel aardig, je ouders denken dat je een echte hacker bent.'
+                description: ''
             }, {
                 id : 5,
                 text : '5',
                 value: 5,
-                description: 'Goed, het meeste maak je bijna foutloos.'
+                description: ''
             }, {
                 id : 6,
                 text : '6',
                 value: 6,
-                description: 'Je hebt de basis goed onder de knie en kan elk design wel omzetten naar een goede pagina.'
+                description: ''
             }, {
                 id : 7,
                 text : '7',
                 value: 7,
-                description: 'Erg goed, zelfs complexe layouts zijn voor jou geen probleem, al kost het nog wel wat tijd.'
+                description: ''
             }, {
                 id : 8,
                 text : '8',
                 value: 8,
-                description: 'Voorbeeld van de klas, iedereen stelt hun vragen aan jou.'
+                description: ''
             }, {
                 id : 9,
                 text : '9',
                 value: 9,
-                description: 'Bizar, je kent alle HTML tags uit je hoofd en weet ook hoe je ze moet gebruiken.'
+                description: ''
             }, {
                 id : 10,
                 text : '10',
                 value: 10,
-                description: 'Niemand is beter. In een uurtje maak je de moeilijkste HTML layouts.'
+                description: ''
             } ]
         },
         {
             id : 3,
+            question_type : 'rating',
+            question_title : 'Op een schaal van 1 tot 10, wat voor cijfer zou je jouw CSS skills geven?',
+            question_name : 'css_skills',
+            question_placeholder : '',
+            question_options : [],
+            question_answers : [ {
+                id : 1,
+                text : '1',
+                value: 1,
+                description: ''
+            }, {
+                id : 2,
+                text : '2',
+                value: 2,
+                description: ''
+            }, {
+                id : 3,
+                text : '3',
+                value: 3,
+                description: ''
+            }, {
+                id : 4,
+                text : '4',
+                value: 4,
+                description: ''
+            }, {
+                id : 5,
+                text : '5',
+                value: 5,
+                description: ''
+            }, {
+                id : 6,
+                text : '6',
+                value: 6,
+                description: ''
+            }, {
+                id : 7,
+                text : '7',
+                value: 7,
+                description: ''
+            }, {
+                id : 8,
+                text : '8',
+                value: 8,
+                description: ''
+            }, {
+                id : 9,
+                text : '9',
+                value: 9,
+                description: ''
+            }, {
+                id : 10,
+                text : '10',
+                value: 10,
+                description: ''
+            } ]
+        },
+        {
+            id : 4,
             question_type : 'options',
             question_title : 'Heb je wel eens BEM ( block, element, modifier ) gebruikt?',
             question_name : 'used_bem',
@@ -105,78 +164,69 @@ class IntermixStagiairsQuestions {
             ]
         },
         {
-            id : 4,
-            question_type : 'input',
-            question_title : 'Wat is je lievelingseten?',
-            question_name : 'favorite_food',
-            question_placeholder : 'Jouw lievelingseten...',
-            question_options : [],
-            question_answers : []
-        },
-        {
             id : 5,
             question_type : 'rating',
-            question_title : 'Op een schaal van 1 tot 10, wat voor cijfer zou je jouw CSS skills geven?',
-            question_name : 'css_skills',
+            question_title : 'Op een schaal van 1 tot 10, wat voor cijfer zou je jouw Javscript skills geven?',
+            question_name : 'js_skills',
             question_placeholder : '',
             question_options : [],
             question_answers : [ {
                 id : 1,
                 text : '1',
                 value: 1,
-                description: 'Erg zielig, zelfs je oma is beter, en die weet net hoe een computer aan kan.'
+                description: ''
             }, {
                 id : 2,
                 text : '2',
                 value: 2,
-                description: 'Matig, je kan net de achtergrondkleur van een pagina wijzigen.'
+                description: ''
             }, {
                 id : 3,
                 text : '3',
                 value: 3,
-                description: 'Redelijke basis, een simpel design lukt jou wel.'
+                description: ''
             }, {
                 id : 4,
                 text : '4',
                 value: 4,
-                description: 'Wel aardig, je ouders denken dat je een echte hacker bent.'
+                description: ''
             }, {
                 id : 5,
                 text : '5',
                 value: 5,
-                description: 'Goed, het meeste maak je bijna foutloos.'
+                description: ''
             }, {
                 id : 6,
                 text : '6',
                 value: 6,
-                description: 'Je hebt de basis goed onder de knie en zet elk design pixel precies om naar een mooie website.'
+                description: ''
             }, {
                 id : 7,
                 text : '7',
                 value: 7,
-                description: 'Erg goed, zelfs complexe layouts zijn voor jou geen probleem, al kost het nog wel wat tijd.'
+                description: ''
             }, {
                 id : 8,
                 text : '8',
                 value: 8,
-                description: 'Voorbeeld van de klas, iedereen stelt hun vragen aan jou.'
+                description: ''
             }, {
                 id : 9,
                 text : '9',
                 value: 9,
-                description: 'Jij styled elke design perfect responsive.'
+                description: ''
             }, {
                 id : 10,
                 text : '10',
                 value: 10,
-                description: 'SVG\'s, animaties, filters, CSS variabelen, niks is jou te gek.'
+                description: ''
             } ]
         },
         {
             id : 6,
             question_type : 'options',
-            question_title : 'Heb je wel eens PHP gebruikt?',
-            question_name : 'used_php',
+            question_title : 'Heb je wel eens Vue.js gebruikt?',
+            question_name : 'used_vue',
             question_placeholder : '',
             question_options : [],
             question_answers : [
@@ -194,84 +244,74 @@ class IntermixStagiairsQuestions {
         },
         {
             id : 7,
-            question_type : 'textarea',
-            question_title : 'Wat wil / verwacht je hier ( te ) leren?',
-            question_name : 'expectations',
-            question_placeholder : 'Wat je hier verwacht / wilt ( te ) leren...',
-            question_options : [],
-            question_answers : []
-        },
-        {
-            id : 8,
             question_type : 'rating',
-            question_title : 'Op een schaal van 1 tot 10, wat voor cijfer zou je jouw JavaScript skills geven?',
-            question_name : 'js_skills',
+            question_title : 'Op een schaal van 1 tot 10, wat voor cijfer zou je jouw PHP skills geven?',
+            question_name : 'php_skills',
             question_placeholder : '',
             question_options : [],
             question_answers : [ {
                 id : 1,
                 text : '1',
-                value : 1,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 1,
+                description: ''
             }, {
                 id : 2,
                 text : '2',
-                value : 2,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 2,
+                description: ''
             }, {
                 id : 3,
                 text : '3',
-                value : 3,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 3,
+                description: ''
             }, {
                 id : 4,
                 text : '4',
-                value : 4,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 4,
+                description: ''
             }, {
                 id : 5,
                 text : '5',
-                value : 5,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 5,
+                description: ''
             }, {
                 id : 6,
                 text : '6',
-                value : 6,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 6,
+                description: ''
             }, {
                 id : 7,
                 text : '7',
-                value : 7,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 7,
+                description: ''
             }, {
                 id : 8,
                 text : '8',
-                value : 8,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 8,
+                description: ''
             }, {
                 id : 9,
                 text : '9',
-                value : 9,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 9,
+                description: ''
             }, {
                 id : 10,
                 text : '10',
-                value : 10,
-                description : 'Geen zin om weer iets te bedenken.'
+                value: 10,
+                description: ''
             } ]
         },
-        /*
         {
-            id : 9,
+            id : 8,
             question_type : 'options',
-            question_title : 'Is Flonky koel?',
-            question_name : 'flonky',
+            question_title : 'Heb je wel eens laravel gebruikt?',
+            question_name : 'used_larvel',
             question_placeholder : '',
             question_options : [],
             question_answers : [
                 {
                     id : 1,
-                    text : 'Nee',
+                    text : 'Ja',
                     value : 1
                 },
                 {
@@ -281,7 +321,15 @@ class IntermixStagiairsQuestions {
                 }
             ]
         },
-        */
+        {
+            id : 9,
+            question_type : 'textarea',
+            question_title : 'Wat wil / verwacht je hier ( te ) leren?',
+            question_name : 'expectations',
+            question_placeholder : 'Wat je hier verwacht / wilt ( te ) leren...',
+            question_options : [],
+            question_answers : []
+        },
         {
             id : 10,
             question_type : 'input',
@@ -291,69 +339,8 @@ class IntermixStagiairsQuestions {
             question_options : [],
             question_answers : []
         },
-        /*
         {
             id : 11,
-            question_type : 'rating',
-            question_title : 'Op een schaal van 1 tot 10, hoe hip is Adriaan?',
-            question_name : 'cool',
-            question_placeholder : '',
-            question_options : [],
-            question_answers : [ {
-                id : 1,
-                text : '1',
-                value : 1,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 2,
-                text : '2',
-                value : 2,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 3,
-                text : '3',
-                value : 3,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 4,
-                text : '4',
-                value : 4,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 5,
-                text : '5',
-                value : 5,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 6,
-                text : '6',
-                value : 6,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 7,
-                text : '7',
-                value : 7,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 8,
-                text : '8',
-                value : 8,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 9,
-                text : '9',
-                value : 9,
-                description : 'Dit antwoord is fout.'
-            }, {
-                id : 10,
-                text : '10',
-                value : 10,
-                description : 'Inderdaad, eigenlijk een 11 maar daar kan je niet voor kiezen.'
-            } ]
-        },
-        */
-        {
-            id : 12,
             question_type : 'options',
             question_title : 'Is <span><p>tekst</p></span> valide HTML?',
             question_name : 'valid_html',
@@ -373,7 +360,7 @@ class IntermixStagiairsQuestions {
             ]
         },
         {
-            id : 13,
+            id : 12,
             question_type : 'options',
             question_title : 'Welke kleur wordt de tekst?',
             question_name : 'text_color',
@@ -417,31 +404,57 @@ class IntermixStagiairsQuestions {
             ]
         },
         {
-            id : 14,
-            question_type : 'textarea',
-            question_title : 'Maak met HTML een link die opent in een nieuw tabblad',
-            question_name : 'html_link',
-            question_placeholder : 'Link die opent in een nieuw tabblad...',
-            question_options : [],
-            question_answers : []
-        },
-        {
-            id : 15,
+            id : 13,
             question_type : 'options',
-            question_title : 'Is console.log( hallo ) valide JavaScript (komt er geen error)?',
-            question_name : 'valid_js',
+            question_title : 'Wat returnen de console.logs?',
+            question_name : 'text_color',
             question_placeholder : '',
-            question_options : [],
-            question_answers : [
+            question_options : [
                 {
                     id : 1,
-                    text : 'Ja',
-                    value : 1
+                    content :
+                        'const object = {\n' +
+                        '   foo: "bar",\n\n' +
+                        '   log: function() {\n' +
+                        '      const self = this;\n\n' +
+                        '        console.log("outer log:  this.foo = " + this.foo);\n' +
+                        '        console.log("outer log:  self.foo = " + self.foo);\n\n' +
+                        '        (function() {\n' +
+                        '            console.log("inner log:  this.foo = " + this.foo);\n' +
+                        '            console.log("inner log:  self.foo = " + self.foo);\n' +
+                        '        }());\n' +
+                        '    }\n' +
+                        '};\n\n' +
+                        'object.log();\n'
                 },
                 {
                     id : 2,
-                    text : 'Nee',
-                    value : 0
+                    content: 'A: Allemaal "bar"\n' +
+                        'B: 2 bar en 2 "undefined"\n' +
+                        'C: Allemaal "undefined"\n' +
+                        'D: Een error'
+                }
+            ],
+            question_answers : [
+                {
+                    id : 1,
+                    text : 'A',
+                    value : 'allCorrect'
+                },
+                {
+                    id : 2,
+                    text : 'B',
+                    value : 'halfCorrect'
+                },
+                {
+                    id : 3,
+                    text : 'C',
+                    value : 'allIncorrect'
+                },
+                {
+                    id : 4,
+                    text : 'D',
+                    value : 'Error'
                 }
             ]
         },

@@ -153,6 +153,8 @@ progress {
         justify-content: flex-start;
         color: var(--tc--second);
         white-space: pre-wrap;
+        max-height: 300px;
+        overflow: auto;
     }
 
     + .options-answer-holder {

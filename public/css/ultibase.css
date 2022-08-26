@@ -1,2 +1,1638 @@
 @import url(https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap);
-@charset "UTF-8";*,:after,:before{box-sizing:border-box;margin:0;padding:0}fieldset{border:none}:root{--p--max-width:100%;--ff--backup:sans-serif;--ff--title:"Lexend",var(--ff--backup);--ff--text:"Lexend",var(--ff--backup);--ff--button:"Lexend",var(--ff--backup);--ff--icons:"Linearicons",var(--ff--backup);--fs--default:2.4rem;--fs--small:1.4rem;--fs--h1:4.8rem;--fs--h2:3.6rem;--fs--h3:2.8rem;--fs--h4:2.4rem;--fs--h5:2rem;--fs--h6:2rem;--fs--button:2.4rem;--lh--default:1.5;--lh--h1:1.3;--lh--h2:1.3;--lh--h3:1.3;--lh--h4:1.3;--lh--h5:1.3;--lh--h6:1.3;--lh--button:1.2;--fw--default:400;--fw--h1:700;--fw--h2:700;--fw--h3:700;--fw--h4:700;--fw--h5:700;--fw--h6:400;--fw--button:700;--fw--th:400;--fw--td:400;--fw--b:700;--mr--object:2.4rem;--mb--h1:4rem;--mb--h2:3.2rem;--mb--h3:2rem;--mb--h4:1.8rem;--mb--h5:1.6rem;--mb--h6:1.4rem;--mb--p:1.2rem;--mb--object:3.6rem;--mb--form-field:2.4rem;--mb--list:1.6rem;--mb--table:1.6rem;--ml--object:2.4rem;--pt--section:12.8rem;--pt--button:3.6rem;--pt--form-field:0.8rem;--pt--th:0.8rem;--pt--td:0.8rem;--pr--object:2.4rem;--pr--button:7.6rem;--pr--form-field:1.6rem;--pr--th:1.2rem;--pr--td:1.2rem;--pb--section:12.8rem;--pb--button:3.6rem;--pb--form-field:0.8rem;--pb--form-label-text:0.4rem;--pb--th:0.8rem;--pb--td:0.8rem;--pl--object:2.4rem;--pl--button:7.6rem;--pl--form-field:1.6rem;--pl--th:1.2rem;--pl--td:1.2rem;--c--white:#fff;--c--black:#000;--wc--default:#fff;--bc--default:#333;--bc--first:#111;--bc--second:#242323;--bc--third:#333;--gc--first:#f6f6f6;--gc--second:#e4e3e3;--gc--third:#eaeaea;--gc--fourth:#989797;--sc--success:#3fc600;--sc--neutral:#d47f00;--sc--error:#ce0018;--tc--default:#888;--tc--second:#434343;--tc--on-ac-first:var(--c--white);--tc--on-ac-second:#434343;--tc--on-gc-first:var(--bc--default);--lc--default:var(--ac--first);--lc--visited:var(--ac--first);--lc--hover:var(--ac--second);--lc--active:var(--ac--second);--lc--on-gc-first-default:var(--ac--first);--lc--on-gc-first-visited:var(--ac--first);--lc--on-gc-first-hover:var(--ac--second);--lc--on-gc-first-active:var(--ac--second);--lc--on-ac-first-default:var(--ac--second);--lc--on-ac-first-visited:var(--ac--second);--lc--on-ac-first-hover:var(--tc--on-ac-first);--lc--on-ac-first-active:var(--tc--on-ac-first);--lc--on-ac-second-default:var(--ac--first);--lc--on-ac-second-visited:var(--ac--first);--lc--on-ac-second-hover:var(--tc--on-ac-second);--lc--on-ac-second-active:var(--tc--on-ac-second);--ac--first:#2085eb;--ac--second:#dbedff;--bgc--default:var(--gc--first);--bdc--default:var(--gc--first);--bdc--on-ac-first:hsla(0,0%,100%,0.4);--bdc--on-ac-second:hsla(0,0%,100%,0.4);--tbl--bgc-header:var(--ac--first);--tbl--bgc-odd-row:var(--gc--first);--tbl--bgc-even-row:var(--gc--second);--tbl--bgc-header-on-gc-first:var(--ac--first);--tbl--bgc-odd-row-on-gc-first:var(--gc--second);--tbl--bgc-even-row-on-gc-first:var(--gc--third);--tbl--bgc-header-on-ac-first:var(--ac--second);--tbl--bgc-odd-row-on-ac-first:var(--bc--first);--tbl--bgc-even-row-on-ac-first:var(--bc--second);--tbl--bgc-header-on-ac-second:var(--ac--first);--tbl--bgc-odd-row-on-ac-second:var(--bc--first);--tbl--bgc-even-row-on-ac-second:var(--bc--second);--tbl--tc-header:var(--tc--on-ac-first);--tbl--tc-row:var(--bc--default);--tbl--tc-header-on-gc-first:var(--tc--on-ac-first);--tbl--tc-row-on-gc-first:var(--bc--default);--tbl--tc-header-on-ac-first:var(--tc--on-ac-second);--tbl--tc-row-on-ac-first:var(--wc--default);--tbl--tc-header-on-ac-second:var(--tc--on-ac-first);--tbl--tc-row-on-ac-second:var(--wc--default);--fm--ac-color:var(--ac--first);--fm--ac-color-on-gc-first:var(--ac--first);--fm--ac-color-on-ac-first:var(--ac--second);--fm--ac-color-on-ac-second:var(--ac--first);--fmf--bdc:var(--bdc--default);--fmf--bdc-hover:var(--ac--first);--fmf--bdc-on-gc-first:var(--bdc--on-gc-first);--fmf--bdc-on-gc-first-hover:var(--ac--second);--fmf--bdc-on-ac-first:var(--bdc--on-ac-first);--fmf--bdc-on-ac-first-hover:var(--ac--second);--fmf--bdc-on-ac-second:var(--bdc--on-ac-second);--fmf--bdc-on-ac-second-hover:var(--ac--first)}@font-face{font-family:linearicons;src:url(/includes/fonts/linearicons.ttf)}html{font-size:62.5%}body{color:var(--tc--default);font-family:var(--ff--text);font-size:var(--fs--default);line-height:var(--lh--default)}h1,h2,h3,h4,h5,h6{color:var(--tc--second);font-family:var(--ff--title)}h1{font-size:var(--fs--h1);font-weight:var(--fw--h1);line-height:var(--lh--h1);margin-bottom:var(--mb--h1)}h2{font-size:var(--fs--h2);font-weight:var(--fw--h2);line-height:var(--lh--h2);margin-bottom:var(--mb--h2)}h3{font-size:var(--fs--h3);font-weight:var(--fw--h3);line-height:var(--lh--h3);margin-bottom:var(--mb--h3)}h4{font-size:var(--fs--h4);font-weight:var(--fw--h4);line-height:var(--lh--h4);margin-bottom:var(--mb--h4)}h5{font-size:var(--fs--h5);font-weight:var(--fw--h5);line-height:var(--lh--h5);margin-bottom:var(--mb--h5)}h6{font-size:var(--fs--h6);font-weight:var(--fw--h6);line-height:var(--lh--h6);margin-bottom:var(--mb--h6)}p{margin-bottom:var(--mb--p)}.section[data-section-background=gc--first] a:not(.button),a:not(.button){color:var(--lc--default)}.section[data-section-background=gc--first] a:visited:not(.button),a:visited:not(.button){color:var(--lc--visited)}.section[data-section-background=gc--first] a:hover:not(.button),a:hover:not(.button){color:var(--lc--hover)}.section[data-section-background=gc--first] a:active:not(.button),a:active:not(.button){color:var(--lc--active)}.section[data-section-background=ac--first] a:not(.button){color:var(--lc--on-ac-first-default)}.section[data-section-background=ac--first] a:visited:not(.button){color:var(--lc--on-ac-first-visited)}.section[data-section-background=ac--first] a:hover:not(.button){color:var(--lc--on-ac-first-hover)}.section[data-section-background=ac--first] a:active:not(.button){color:var(--lc--on-ac-first-active)}.section[data-section-background=ac--second] a:not(.button){color:var(--lc--on-ac-second-default)}.section[data-section-background=ac--second] a:visited:not(.button){color:var(--lc--on-ac-second-visited)}.section[data-section-background=ac--second] a:hover:not(.button){color:var(--lc--on-ac-second-hover)}.section[data-section-background=ac--second] a:active:not(.button){color:var(--lc--on-ac-second-active)}b,strong{font-weight:var(--fw--b)}u{text-decoration:underline}em,i{font-style:italic}ol+h1,p+h1,table+h1,ul+h1{margin-top:calc(var(--mb--h1) + var(--mb--p))}ol+h2,p+h2,table+h2,ul+h2{margin-top:calc(var(--mb--h2) + var(--mb--p))}ol+h3,p+h3,table+h3,ul+h3{margin-top:calc(var(--mb--h3) + var(--mb--p))}ol+h4,p+h4,table+h4,ul+h4{margin-top:calc(var(--mb--h4) + var(--mb--p))}ol+h5,p+h5,table+h5,ul+h5{margin-top:calc(var(--mb--h5) + var(--mb--p))}ol+h6,p+h6,table+h6,ul+h6{margin-top:calc(var(--mb--h6) + var(--mb--p))}.text>:last-child{margin-bottom:0}ul{margin-bottom:var(--mb--list)}ul>li{align-items:center;display:flex;flex-wrap:wrap;margin:4px 0}ul>li:before{background-color:currentColor;border-radius:50%;content:"";display:inline-block;height:7px;margin-right:6px;width:7px}.list--square-bullets>li:before{border-radius:0}.list--check-marks>li:before{content:""}.list--check-marks>li:before,.list--cross-marks>li:before{background-color:unset;font-family:var(--ff--icons);height:unset;width:unset}.list--cross-marks>li:before{content:""}.list--arrows>li:before{background-color:unset;content:"";font-family:var(--ff--icons);height:unset;width:unset}ol{list-style-position:inside;list-style-type:decimal;margin-bottom:var(--mb--list)}ol li{margin:4px 0}.list--roman-numbers{list-style-position:inside;list-style-type:upper-roman}ol ol,ol ul,ul ol,ul ul{margin-bottom:0;margin-left:16px;width:100%}li ol>li:last-child,li ul>li:last-child{margin-bottom:0}.button,button,input[type=submit]{border:none;border-radius:8px;cursor:pointer;display:inline-grid;font-family:var(--ff--button);font-size:var(--fs--button);font-weight:var(--fw--button);line-height:var(--lh--button);padding:var(--pt--button) var(--pr--button) var(--pb--button) var(--pl--button);text-decoration:none}.button:active,.button:focus,.button:hover,button:active,button:focus,button:hover,input[type=submit]:active,input[type=submit]:focus,input[type=submit]:hover{opacity:.85}@media (max-width:467px){.button+.button,.button+button,.button+input[type=submit],button+.button,button+button,button+input[type=submit],input[type=submit]+.button,input[type=submit]+button,input[type=submit]+input[type=submit]{margin-left:12px}}@media (max-width:767px){.button,button,input[type=submit]{width:100%}}.button--white,.section[data-section-background=ac--first] .button--first,.section[data-section-background=ac--second] .button--second{background-color:var(--c--white);color:var(--bc--default)}.button--first{background-color:var(--ac--first);color:var(--tc--on-ac-first)}.button--second,[disabled].button--first{background-color:var(--ac--second);color:var(--tc--on-ac-second)}input[type=date],input[type=number],input[type=password],input[type=text],textarea{background-color:transparent;border:none;border-bottom:1px solid var(--fmf--bdc);color:var(--tc--default);font-family:var(--ff--text);font-size:var(--fs--default);line-height:var(--lh--default);outline:none;padding:var(--pt--form-field) var(--pr--form-field) var(--pb--form-field) var(--pl--form-field);width:100%}input[type=date]:active,input[type=date]:focus,input[type=date]:hover,input[type=number]:active,input[type=number]:focus,input[type=number]:hover,input[type=password]:active,input[type=password]:focus,input[type=password]:hover,input[type=text]:active,input[type=text]:focus,input[type=text]:hover,textarea:active,textarea:focus,textarea:hover{border-color:var(--fmf--bdc-hover)}.form-field-checkbox__icon,.form-field-radio__icon{border:1px solid;box-sizing:border-box;display:inline-block;height:15px;margin-bottom:1px;margin-right:6px;position:relative;width:15px}.form-field-checkbox__icon:before,.form-field-radio__icon:before{background-color:transparent;border-radius:inherit;bottom:2px;content:"";left:2px;position:absolute;right:2px;top:2px}.form{--form-label--height:28px}.form__field{margin-bottom:var(--mb--form-field);position:relative}.form__field[data-js-form-field-status=true] .form-field-status__icon:before{color:var(--sc--success);content:"";font-family:var(--ff--icons)}.form__field[data-js-form-field-status=false] .form-field-status__icon:before{color:var(--sc--error);content:"";font-family:var(--ff--icons)}.form-field-label__text{display:block;padding-bottom:var(--pb--form-label-text);width:100%}.form__field-radios .form-field-status__icon{height:24px}.form__field-radios--inline .form-field__label{display:flex;flex-wrap:wrap}.form__field-radios--inline .form-field__radio{margin-right:12px}.form-field__radio{align-items:center;display:flex}.form-field__radio input[type=radio]{display:none}.form-field__radio input[type=radio]:checked+.form-field-radio__icon:before{background-color:var(--fm--ac-color)}.form-field__radio:active,.form-field__radio:focus,.form-field__radio:hover{color:var(--fm--ac-color)}.form-field-radio__icon{border-radius:50%}.form-field-radio__icon:before{border-radius:inherit}.form__field-checkboxes .form-field-status__icon{height:24px}.form-field__checkbox{align-items:center;display:flex}.form-field__checkbox input[type=checkbox]{display:none}.form-field__checkbox input[type=checkbox]:checked+.form-field-checkbox__icon:before{background-color:var(--fm--ac-color)}.form-field__checkbox:active,.form-field__checkbox:focus,.form-field__checkbox:hover{color:var(--fm--ac-color)}.form-field__checkbox .form-field-status__icon{height:24px}.form-field-checkbox__icon{border-radius:2px}.form-field-checkbox__icon:before{border-radius:1px}.form-field__status{color:var(--tc--default);position:absolute;right:0;top:var(--form-label--height)}.form-field__status:hover .form-field-status__tooltip{opacity:1;visibility:visible}.form-field-status__tooltip{background:var(--bgc--default);border:1px solid var(--bdc--default);bottom:100%;font-size:var(--fs--small);left:50%;opacity:0;padding:8px 24px;position:absolute;transform:translateX(-50%);transition:opacity .2s ease-in-out,visibility .2s ease-in-out;visibility:hidden;width:-webkit-max-content;width:-moz-max-content;width:max-content;z-index:14}.form-field-status__icon{align-items:center;display:flex;height:41px;justify-content:center;width:41px}body{background-color:var(--bgc--default);padding:8rem 16.4rem}.grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.grid-child{display:inline-grid;grid-column:span 12;width:100%}@media (min-width:768px){.grid-child--11{grid-column:span 11}.grid-child--10{grid-column:span 10}.grid-child--9{grid-column:span 9}.grid-child--8{grid-column:span 8}.grid-child--7{grid-column:span 7}.grid-child--6{grid-column:span 6}.grid-child--5{grid-column:span 5}.grid-child--4{grid-column:span 4}.grid-child--3{grid-column:span 3}.grid-child--2{grid-column:span 2}.grid-child--1{grid-column:span 1}}@media (min-width:1024px){.fd--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.fd--grid-child{display:inline-grid;grid-column:span 12;width:100%}.fd--grid-child--1{grid-column:span 1}.fd--grid-child--2{grid-column:span 2}.fd--grid-child--3{grid-column:span 3}.fd--grid-child--4{grid-column:span 4}.fd--grid-child--5{grid-column:span 5}.fd--grid-child--6{grid-column:span 6}.fd--grid-child--7{grid-column:span 7}.fd--grid-child--8{grid-column:span 8}.fd--grid-child--9{grid-column:span 9}.fd--grid-child--10{grid-column:span 10}.fd--grid-child--11{grid-column:span 11}.fd--grid-child--12{grid-column:span 12}.fd--mr--object-half{margin-right:calc(var(--mr--object)/2)}.fd--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (min-width:1248px){.fdm--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.fdm--grid-child{display:inline-grid;grid-column:span 12;width:100%}.fdm--grid-child--1{grid-column:span 1}.fdm--grid-child--2{grid-column:span 2}.fdm--grid-child--3{grid-column:span 3}.fdm--grid-child--4{grid-column:span 4}.fdm--grid-child--5{grid-column:span 5}.fdm--grid-child--6{grid-column:span 6}.fdm--grid-child--7{grid-column:span 7}.fdm--grid-child--8{grid-column:span 8}.fdm--grid-child--9{grid-column:span 9}.fdm--grid-child--10{grid-column:span 10}.fdm--grid-child--11{grid-column:span 11}.fdm--grid-child--12{grid-column:span 12}.fdm--mr--object-half{margin-right:calc(var(--mr--object)/2)}.fdm--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (max-width:1247px){.tmm--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.tmm--grid-child{display:inline-grid;grid-column:span 12;width:100%}.tmm--grid-child--1{grid-column:span 1}.tmm--grid-child--2{grid-column:span 2}.tmm--grid-child--3{grid-column:span 3}.tmm--grid-child--4{grid-column:span 4}.tmm--grid-child--5{grid-column:span 5}.tmm--grid-child--6{grid-column:span 6}.tmm--grid-child--7{grid-column:span 7}.tmm--grid-child--8{grid-column:span 8}.tmm--grid-child--9{grid-column:span 9}.tmm--grid-child--10{grid-column:span 10}.tmm--grid-child--11{grid-column:span 11}.tmm--grid-child--12{grid-column:span 12}.tmm--mr--object-half{margin-right:calc(var(--mr--object)/2)}.tmm--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (max-width:1023px){.tlt--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.tlt--grid-child{display:inline-grid;grid-column:span 12;width:100%}.tlt--grid-child--1{grid-column:span 1}.tlt--grid-child--2{grid-column:span 2}.tlt--grid-child--3{grid-column:span 3}.tlt--grid-child--4{grid-column:span 4}.tlt--grid-child--5{grid-column:span 5}.tlt--grid-child--6{grid-column:span 6}.tlt--grid-child--7{grid-column:span 7}.tlt--grid-child--8{grid-column:span 8}.tlt--grid-child--9{grid-column:span 9}.tlt--grid-child--10{grid-column:span 10}.tlt--grid-child--11{grid-column:span 11}.tlt--grid-child--12{grid-column:span 12}.tlt--mr--object-half{margin-right:calc(var(--mr--object)/2)}.tlt--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (min-width:768px) and (max-width:1023px){.olt--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.olt--grid-child{display:inline-grid;grid-column:span 12;width:100%}.olt--grid-child--1{grid-column:span 1}.olt--grid-child--2{grid-column:span 2}.olt--grid-child--3{grid-column:span 3}.olt--grid-child--4{grid-column:span 4}.olt--grid-child--5{grid-column:span 5}.olt--grid-child--6{grid-column:span 6}.olt--grid-child--7{grid-column:span 7}.olt--grid-child--8{grid-column:span 8}.olt--grid-child--9{grid-column:span 9}.olt--grid-child--10{grid-column:span 10}.olt--grid-child--11{grid-column:span 11}.olt--grid-child--12{grid-column:span 12}.olt--mr--object-half{margin-right:calc(var(--mr--object)/2)}.olt--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (min-width:768px){.flt--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.flt--grid-child{display:inline-grid;grid-column:span 12;width:100%}.flt--grid-child--1{grid-column:span 1}.flt--grid-child--2{grid-column:span 2}.flt--grid-child--3{grid-column:span 3}.flt--grid-child--4{grid-column:span 4}.flt--grid-child--5{grid-column:span 5}.flt--grid-child--6{grid-column:span 6}.flt--grid-child--7{grid-column:span 7}.flt--grid-child--8{grid-column:span 8}.flt--grid-child--9{grid-column:span 9}.flt--grid-child--10{grid-column:span 10}.flt--grid-child--11{grid-column:span 11}.flt--grid-child--12{grid-column:span 12}.flt--mr--object-half{margin-right:calc(var(--mr--object)/2)}.flt--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (max-width:767px){.tst--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.tst--grid-child{display:inline-grid;grid-column:span 12;width:100%}.tst--grid-child--1{grid-column:span 1}.tst--grid-child--2{grid-column:span 2}.tst--grid-child--3{grid-column:span 3}.tst--grid-child--4{grid-column:span 4}.tst--grid-child--5{grid-column:span 5}.tst--grid-child--6{grid-column:span 6}.tst--grid-child--7{grid-column:span 7}.tst--grid-child--8{grid-column:span 8}.tst--grid-child--9{grid-column:span 9}.tst--grid-child--10{grid-column:span 10}.tst--grid-child--11{grid-column:span 11}.tst--grid-child--12{grid-column:span 12}.tst--mr--object-half{margin-right:calc(var(--mr--object)/2)}.tst--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (min-width:468px) and (max-width:767px){.ost--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.ost--grid-child{display:inline-grid;grid-column:span 12;width:100%}.ost--grid-child--1{grid-column:span 1}.ost--grid-child--2{grid-column:span 2}.ost--grid-child--3{grid-column:span 3}.ost--grid-child--4{grid-column:span 4}.ost--grid-child--5{grid-column:span 5}.ost--grid-child--6{grid-column:span 6}.ost--grid-child--7{grid-column:span 7}.ost--grid-child--8{grid-column:span 8}.ost--grid-child--9{grid-column:span 9}.ost--grid-child--10{grid-column:span 10}.ost--grid-child--11{grid-column:span 11}.ost--grid-child--12{grid-column:span 12}.ost--mr--object-half{margin-right:calc(var(--mr--object)/2)}.ost--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (min-width:468px){.fst--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.fst--grid-child{display:inline-grid;grid-column:span 12;width:100%}.fst--grid-child--1{grid-column:span 1}.fst--grid-child--2{grid-column:span 2}.fst--grid-child--3{grid-column:span 3}.fst--grid-child--4{grid-column:span 4}.fst--grid-child--5{grid-column:span 5}.fst--grid-child--6{grid-column:span 6}.fst--grid-child--7{grid-column:span 7}.fst--grid-child--8{grid-column:span 8}.fst--grid-child--9{grid-column:span 9}.fst--grid-child--10{grid-column:span 10}.fst--grid-child--11{grid-column:span 11}.fst--grid-child--12{grid-column:span 12}.fst--mr--object-half{margin-right:calc(var(--mr--object)/2)}.fst--ml--object-half{margin-left:calc(var(--ml--object)/2)}}@media (max-width:467px){.tm--grid-parent{display:grid;grid-template-columns:repeat(12,1fr)}.tm--grid-child{display:inline-grid;grid-column:span 12;width:100%}.tm--grid-child--1{grid-column:span 1}.tm--grid-child--2{grid-column:span 2}.tm--grid-child--3{grid-column:span 3}.tm--grid-child--4{grid-column:span 4}.tm--grid-child--5{grid-column:span 5}.tm--grid-child--6{grid-column:span 6}.tm--grid-child--7{grid-column:span 7}.tm--grid-child--8{grid-column:span 8}.tm--grid-child--9{grid-column:span 9}.tm--grid-child--10{grid-column:span 10}.tm--grid-child--11{grid-column:span 11}.tm--grid-child--12{grid-column:span 12}.tm--mr--object-half{margin-right:calc(var(--mr--object)/2)}.tm--ml--object-half{margin-left:calc(var(--ml--object)/2)}}.section__row{margin-left:auto;margin-right:auto;max-width:var(--p--max-width)}.section[data-section-background=bgc--default]+.section[data-section-background=bgc--default]{padding-top:0}.section[data-section-background=gc--first]{--tc--default:var(--tc--on-gc-first);--bgc--default:var(--gc--first);--bdc--default:var(--bdc--on-gc-first);--fm--ac-color:var(--fm--ac-color-on-gc-first);--fmf--bdc:var(--fmf--bdc-on-gc-first);--fmf--bdc-hover:var(--fmf--bdc-on-gc-first-hover);--tbl--bgc-header:var(--tbl--bgc-header-on-gc-first);--tbl--bgc-odd-row:var(--tbl--bgc-odd-row-on-gc-first);--tbl--bgc-even-row:var(--tbl--bgc-even-row-on-gc-first);--tbl--tc-header:var(--tbl--tc-header-on-gc-first);--tbl--tc-row:var(--tbl--tc-row-on-gc-first);background-color:var(--gc--first);color:var(--tc--on-gc-first)}.section[data-section-background=gc--first]+.section[data-section-background=gc--first]{padding-top:0}.section[data-section-background=ac--first]{--tc--default:var(--tc--on-ac-first);--bgc--default:var(--ac--first);--bdc--default:var(--bdc--on-ac-first);--fm--ac-color:var(--fm--ac-color-on-ac-first);--fmf--bdc:var(--fmf--bdc-on-ac-first);--fmf--bdc-hover:var(--fmf--bdc-on-ac-first-hover);--tbl--bgc-header:var(--tbl--bgc-header-on-ac-first);--tbl--bgc-odd-row:var(--tbl--bgc-odd-row-on-ac-first);--tbl--bgc-even-row:var(--tbl--bgc-even-row-on-ac-first);--tbl--tc-header:var(--tbl--tc-header-on-ac-first);--tbl--tc-row:var(--tbl--tc-row-on-ac-first);background-color:var(--ac--first);color:var(--tc--on-ac-first)}.section[data-section-background=ac--first]+.section[data-section-background=ac--first]{padding-top:0}.section[data-section-background=ac--second]{--tc--default:var(--tc--on-ac-second);--bgc--default:var(--ac--second);--bdc--default:var(--bdc--on-ac-second);--fm--ac-color:var(--fm--ac-color-on-ac-second);--fmf--bdc:var(--fmf--bdc-on-ac-second);--fmf--bdc-hover:var(--fmf--bdc-on-ac-second-hover);--tbl--bgc-header:var(--tbl--bgc-header-on-ac-second);--tbl--bgc-odd-row:var(--tbl--bgc-odd-row-on-ac-second);--tbl--bgc-even-row:var(--tbl--bgc-even-row-on-ac-second);--tbl--tc-header:var(--tbl--tc-header-on-ac-second);--tbl--tc-row:var(--tbl--tc-row-on-ac-second);background-color:var(--ac--second);color:var(--tc--on-ac-second)}.section[data-section-background=ac--second]+.section[data-section-background=ac--second]{padding-top:0}#questions-holder{background-color:var(--c--white);border-radius:16px;padding-bottom:6.4rem}.content-holder{padding:6.4rem 6.4rem 0}.button-holder{padding:0 6.4rem}.object{margin-bottom:var(--mb--object);padding-left:var(--pl--object);padding-right:var(--pr--object)}.item>:last-child{margin-bottom:0}.table,table{border-collapse:collapse;display:table;margin-bottom:var(--mb--table);width:100%}.table thead>tr,table thead>tr{background-color:var(--tbl--bgc-header)}.table th,table th{color:var(--tbl--tc-header);font-weight:var(--fw--th);padding:var(--pt--th) var(--pr--th) var(--pb--th) var(--pl--th);text-align:left}.table tbody>tr:nth-of-type(odd),table tbody>tr:nth-of-type(odd){background-color:var(--tbl--bgc-odd-row)}.table tbody>tr:nth-of-type(2n),table tbody>tr:nth-of-type(2n){background-color:var(--tbl--bgc-even-row)}.table td,table td{color:var(--tbl--tc-row);font-weight:var(--fw--td);padding:var(--pt--td) var(--pr--td) var(--pb--td) var(--pl--td)}progress{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:var(--ac--second);border:unset;border-radius:16px 16px 0 0;display:block;height:32px;overflow:hidden;width:100%}progress::-webkit-progress-bar{background-color:var(--ac--second)}progress::-webkit-progress-value{background-color:var(--ac--first)}#name{border:unset;color:var(--ac--first);display:inline;font-size:inherit;font-style:inherit;font-weight:inherit;line-height:inherit;padding:0;width:auto}#name::-moz-placeholder{color:#888}#name:-ms-input-placeholder{color:#888}#name::placeholder{color:#888}.content-holder{height:calc(100vh - var(--mb--h1) - 22.4rem - 195px)}.button-holder{display:flex;justify-content:flex-end}.rating-holder{border-radius:8px;display:flex;margin-bottom:2.4rem}.rating-button{background-color:var(--c--white);border:1px solid var(--gc--second);border-radius:0;color:inherit;flex-basis:0;flex-grow:1;padding:2.8rem 1rem;position:relative;text-align:center}.rating-button--active{background-color:var(--ac--second);border-color:var(--ac--first);color:var(--ac--first)}.rating-button:first-of-type{border-bottom-left-radius:8px;border-top-left-radius:8px}.rating-button:last-of-type{border-bottom-right-radius:8px;border-top-right-radius:8px}.rating-button:not(:last-of-type){border-right:unset}.rating-button:not(:last-of-type).rating-button--active:after{background-color:var(--ac--first);bottom:0;content:"";height:100%;left:auto;left:unset;position:absolute;right:0;top:0;width:1px}#answer-holder input{border:1px solid var(--gc--second);border-radius:8px;color:var(--tc--second);font-weight:400;padding:3.6rem}#answer-holder input::-moz-placeholder{color:var(--tc--default)}#answer-holder input:-ms-input-placeholder{color:var(--tc--default)}#answer-holder input::placeholder{color:var(--tc--default)}#answer-holder textarea{border:1px solid var(--gc--second);border-radius:8px;color:var(--tc--second);font-weight:400;min-height:200px;padding:3.6rem}#answer-holder textarea::-moz-placeholder{color:var(--tc--default)}#answer-holder textarea:-ms-input-placeholder{color:var(--tc--default)}#answer-holder textarea::placeholder{color:var(--tc--default)}.options-answer-holder{grid-gap:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}.options-answer-holder label{align-items:center;border:1px solid var(--gc--second);border-radius:8px;color:var(--tc--second);cursor:pointer;display:flex;justify-content:center;padding:7.2rem 1.2rem}.options-answer-holder label.active{background-color:var(--ac--second);border-color:var(--ac--first)}.options-answer-holder label input{display:none}.options-holder{grid-gap:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));margin-bottom:16px}.options-holder div{align-items:flex-start;border:1px solid var(--gc--second);border-radius:8px;color:var(--tc--second);display:flex;justify-content:flex-start;white-space:pre-wrap}.options-holder+.options-answer-holder label,.options-holder div{padding:2.4rem 1.2rem}.color--ac--first{color:var(--ac--first)}
+/**
+* The default includes.
+*/
+/* The mixins. */
+/* A mixin to overrule the default style. Using this should be avoided! */
+/* Only apply styles from desktop size ( 1024px ). */
+/* Only apply styles from when the desktop menu is visible ( 1248px ). */
+/* Only apply styles till the mobile menu is visible ( 1248px ). */
+/* Only apply styles till large tablet size ( 1023px ). */
+/* Only apply styles on large tablet size ( 768px till 1023px ). */
+/* Only apply styles from large tablet size ( 768px ). */
+/* Only apply styles till small tablet size ( 767px ). */
+/* Only apply styles on small tablet size ( 468px till 767px ). */
+/* Only apply styles from small tablet size ( 468px ). */
+/* Only apply styles till mobile size ( 467px ). */
+/* A mixin to shorten the code to write for an interaction. */
+/* A mixin to make an object easily responsive. */
+/* Sets a pre-defined box-shadow. */
+/* Sets a background color and changes the colors of the text, links, buttons etc.
+   so everything is still readable. */
+/* The reset. */
+/* Removing the default margins, paddings and setting the box 
+   sizing to border box. */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Removing the borders from the form fieldsets. */
+fieldset {
+  border: none;
+}
+
+/* The settings. */
+/* The variable that sets if this website / webapp uses a light / dark theme. */
+/* The variables. */
+:root {
+  /* The page ( p ) variables. */
+  --p--max-width: 100%;
+  /* The font family ( ff ) variables. */
+  --ff--backup: sans-serif;
+  --ff--title: "Lexend", var(--ff--backup);
+  --ff--text: "Lexend", var(--ff--backup);
+  --ff--button: "Lexend", var(--ff--backup);
+  --ff--icons: "Linearicons", var(--ff--backup);
+  /* The font size ( fs ) variables. */
+  --fs--default: 2.4rem;
+  --fs--small: 1.4rem;
+  --fs--h1: 4.8rem;
+  --fs--h2: 3.6rem;
+  --fs--h3: 2.8rem;
+  --fs--h4: 2.4rem;
+  --fs--h5: 2rem;
+  --fs--h6: 2rem;
+  --fs--button: 2.4rem;
+  /* The line height ( lh ) variables. */
+  --lh--default: 1.5;
+  --lh--h1: 1.3;
+  --lh--h2: 1.3;
+  --lh--h3: 1.3;
+  --lh--h4: 1.3;
+  --lh--h5: 1.3;
+  --lh--h6: 1.3;
+  --lh--button: 1.2;
+  /* The font weight ( fw ) variables. */
+  --fw--default: 400;
+  --fw--h1: 700;
+  --fw--h2: 700;
+  --fw--h3: 700;
+  --fw--h4: 700;
+  --fw--h5: 700;
+  --fw--h6: 400;
+  --fw--button: 700;
+  --fw--th: 400;
+  --fw--td: 400;
+  --fw--b: 700;
+  /* The margin top ( mt ) variables. */
+  /* The margin right ( mr ) variables. */
+  --mr--object: 2.4rem;
+  /* The margin bottom ( mb ) variables. */
+  --mb--h1: 4rem;
+  --mb--h2: 3.2rem;
+  --mb--h3: 2rem;
+  --mb--h4: 1.8rem;
+  --mb--h5: 1.6rem;
+  --mb--h6: 1.4rem;
+  --mb--p: 1.2rem;
+  --mb--object: 3.6rem;
+  --mb--form-field: 2.4rem;
+  --mb--list: 1.6rem;
+  --mb--table: 1.6rem;
+  /* The margin left ( ml ) variables. */
+  --ml--object: 2.4rem;
+  /* The padding top ( pt ) variables. */
+  --pt--section: 12.8rem;
+  --pt--button: 3.6rem;
+  --pt--form-field: 0.8rem;
+  --pt--th: 0.8rem;
+  --pt--td: 0.8rem;
+  /* The padding right ( pr ) variables. */
+  --pr--object: 2.4rem;
+  --pr--button: 7.6rem;
+  --pr--form-field: 1.6rem;
+  --pr--th: 1.2rem;
+  --pr--td: 1.2rem;
+  /* The padding bottom ( pb ) variables. */
+  --pb--section: 12.8rem;
+  --pb--button: 3.6rem;
+  --pb--form-field: 0.8rem;
+  --pb--form-label-text: 0.4rem;
+  --pb--th: 0.8rem;
+  --pb--td: 0.8rem;
+  /* The padding left ( pl ) variables. */
+  --pl--object: 2.4rem;
+  --pl--button: 7.6rem;
+  --pl--form-field: 1.6rem;
+  --pl--th: 1.2rem;
+  --pl--td: 1.2rem;
+  /* The default color ( c ) variables. */
+  --c--white: #FFF;
+  --c--black: #000;
+  /* The white color ( wc ) variables. */
+  --wc--default: #FFF;
+  /* The black color ( bc ) variables. */
+  --bc--default: #333;
+  --bc--first: #111;
+  --bc--second: #242323;
+  --bc--third: #333;
+  /* The grey color ( gc ) variables. */
+  --gc--first: #F6F6F6;
+  --gc--second: #E4E3E3;
+  --gc--third: #EAEAEA;
+  --gc--fourth: #989797;
+  /* The status color ( sc ) variables. */
+  --sc--success: #3FC600;
+  --sc--neutral: #D47F00;
+  --sc--error: #CE0018;
+  /* The color variables for a website without a light / dark theme. */
+  /* The text color ( tc ) variables. */
+  --tc--default: #888888;
+  --tc--second: #434343;
+  --tc--on-ac-first: var(--c--white);
+  --tc--on-ac-second: #434343;
+  --tc--on-gc-first: var(--bc--default);
+  /* The link color ( lc ) variables. */
+  --lc--default: var(--ac--first);
+  --lc--visited: var(--ac--first);
+  --lc--hover: var(--ac--second);
+  --lc--active: var(--ac--second);
+  --lc--on-gc-first-default: var(--ac--first);
+  --lc--on-gc-first-visited: var(--ac--first);
+  --lc--on-gc-first-hover: var(--ac--second);
+  --lc--on-gc-first-active: var(--ac--second);
+  --lc--on-ac-first-default: var(--ac--second);
+  --lc--on-ac-first-visited: var(--ac--second);
+  --lc--on-ac-first-hover: var(--tc--on-ac-first);
+  --lc--on-ac-first-active: var(--tc--on-ac-first);
+  --lc--on-ac-second-default: var(--ac--first);
+  --lc--on-ac-second-visited: var(--ac--first);
+  --lc--on-ac-second-hover: var(--tc--on-ac-second);
+  --lc--on-ac-second-active: var(--tc--on-ac-second);
+  /* The accent colors. */
+  --ac--first: #2085EB;
+  --ac--second: #DBEDFF;
+  /* The background colors. */
+  --bgc--default: var(--gc--first);
+  /* The border colors. */
+  --bdc--default: var(--gc--first);
+  --bdc--on-ac-first: rgba(255, 255, 255, 0.4);
+  --bdc--on-ac-second: rgba(255, 255, 255, 0.4);
+  /* The table ( tbl ) variables. */
+  --tbl--bgc-header: var(--ac--first);
+  --tbl--bgc-odd-row: var(--gc--first);
+  --tbl--bgc-even-row: var(--gc--second);
+  --tbl--bgc-header-on-gc-first: var(--ac--first);
+  --tbl--bgc-odd-row-on-gc-first: var(--gc--second);
+  --tbl--bgc-even-row-on-gc-first: var(--gc--third);
+  --tbl--bgc-header-on-ac-first: var(--ac--second);
+  --tbl--bgc-odd-row-on-ac-first: var(--bc--first);
+  --tbl--bgc-even-row-on-ac-first: var(--bc--second);
+  --tbl--bgc-header-on-ac-second: var(--ac--first);
+  --tbl--bgc-odd-row-on-ac-second: var(--bc--first);
+  --tbl--bgc-even-row-on-ac-second: var(--bc--second);
+  --tbl--tc-header: var(--tc--on-ac-first);
+  --tbl--tc-row: var(--bc--default);
+  --tbl--tc-header-on-gc-first: var(--tc--on-ac-first);
+  --tbl--tc-row-on-gc-first: var(--bc--default);
+  --tbl--tc-header-on-ac-first: var(--tc--on-ac-second);
+  --tbl--tc-row-on-ac-first: var(--wc--default);
+  --tbl--tc-header-on-ac-second: var(--tc--on-ac-first);
+  --tbl--tc-row-on-ac-second: var(--wc--default);
+  /* The form ( fm ) variables. */
+  --fm--ac-color: var(--ac--first);
+  --fm--ac-color-on-gc-first: var(--ac--first);
+  --fm--ac-color-on-ac-first: var(--ac--second);
+  --fm--ac-color-on-ac-second: var(--ac--first);
+  /* The form field ( fmf ) variables. */
+  --fmf--bdc: var(--bdc--default);
+  --fmf--bdc-hover: var(--ac--first);
+  --fmf--bdc-on-gc-first: var(--bdc--on-gc-first);
+  --fmf--bdc-on-gc-first-hover: var(--ac--second);
+  --fmf--bdc-on-ac-first: var(--bdc--on-ac-first);
+  --fmf--bdc-on-ac-first-hover: var(--ac--second);
+  --fmf--bdc-on-ac-second: var(--bdc--on-ac-second);
+  --fmf--bdc-on-ac-second-hover: var(--ac--first);
+}
+
+/* The color variables for a website with a light / dark theme. */
+/* The typography. */
+/* Import the font-family. */
+/* Import the icons. */
+@font-face {
+  font-family: "linearicons";
+  src: url("/includes/fonts/linearicons.ttf");
+}
+/* Setting the correct font-size ( 16px with the default browser settings ). */
+html {
+  font-size: 62.5%; /* 16px * 0.625 = 10px. */
+}
+
+body {
+  font-family: var(--ff--text);
+  font-size: var(--fs--default); /* 1.6rem = 16px. */
+  line-height: var(--lh--default);
+  color: var(--tc--default);
+}
+
+/* Styling the titles. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff--title);
+  color: var(--tc--second);
+}
+
+/* Styling the h1. */
+h1 {
+  font-size: var(--fs--h1);
+  font-weight: var(--fw--h1);
+  line-height: var(--lh--h1);
+  margin-bottom: var(--mb--h1);
+}
+
+/* Styling the h2. */
+h2 {
+  font-size: var(--fs--h2);
+  font-weight: var(--fw--h2);
+  line-height: var(--lh--h2);
+  margin-bottom: var(--mb--h2);
+}
+
+/* Styling the h3. */
+h3 {
+  font-size: var(--fs--h3);
+  font-weight: var(--fw--h3);
+  line-height: var(--lh--h3);
+  margin-bottom: var(--mb--h3);
+}
+
+/* Styling the h4. */
+h4 {
+  font-size: var(--fs--h4);
+  font-weight: var(--fw--h4);
+  line-height: var(--lh--h4);
+  margin-bottom: var(--mb--h4);
+}
+
+/* Styling the h5. */
+h5 {
+  font-size: var(--fs--h5);
+  font-weight: var(--fw--h5);
+  line-height: var(--lh--h5);
+  margin-bottom: var(--mb--h5);
+}
+
+/* Styling the h6. */
+h6 {
+  font-size: var(--fs--h6);
+  font-weight: var(--fw--h6);
+  line-height: var(--lh--h6);
+  margin-bottom: var(--mb--h6);
+}
+
+/* Styling the paragraph. */
+p {
+  margin-bottom: var(--mb--p);
+}
+
+/* Styling the links ( a ). */
+.section[data-section-background=gc--first] a:not(.button), a:not(.button) {
+  color: var(--lc--default);
+}
+.section[data-section-background=gc--first] a:visited:not(.button), a:visited:not(.button) {
+  color: var(--lc--visited);
+}
+.section[data-section-background=gc--first] a:hover:not(.button), a:hover:not(.button) {
+  color: var(--lc--hover);
+}
+.section[data-section-background=gc--first] a:active:not(.button), a:active:not(.button) {
+  color: var(--lc--active);
+}
+
+.section[data-section-background=ac--first] a:not(.button) {
+  color: var(--lc--on-ac-first-default);
+}
+.section[data-section-background=ac--first] a:visited:not(.button) {
+  color: var(--lc--on-ac-first-visited);
+}
+.section[data-section-background=ac--first] a:hover:not(.button) {
+  color: var(--lc--on-ac-first-hover);
+}
+.section[data-section-background=ac--first] a:active:not(.button) {
+  color: var(--lc--on-ac-first-active);
+}
+
+.section[data-section-background=ac--second] a:not(.button) {
+  color: var(--lc--on-ac-second-default);
+}
+.section[data-section-background=ac--second] a:visited:not(.button) {
+  color: var(--lc--on-ac-second-visited);
+}
+.section[data-section-background=ac--second] a:hover:not(.button) {
+  color: var(--lc--on-ac-second-hover);
+}
+.section[data-section-background=ac--second] a:active:not(.button) {
+  color: var(--lc--on-ac-second-active);
+}
+
+/* Styling the bold and strong text. */
+b, strong {
+  font-weight: var(--fw--b);
+}
+
+/* Styling the underlined text. */
+u {
+  text-decoration: underline;
+}
+
+/* Styling the italic and emphasized text. */
+i, em {
+  font-style: italic;
+}
+
+/* Making sure the title belongs to a new part of the page by adding
+   white space on top when there is content above. */
+p + h1, ul + h1, ol + h1, table + h1 {
+  margin-top: calc(var(--mb--h1) + var(--mb--p));
+}
+p + h2, ul + h2, ol + h2, table + h2 {
+  margin-top: calc(var(--mb--h2) + var(--mb--p));
+}
+p + h3, ul + h3, ol + h3, table + h3 {
+  margin-top: calc(var(--mb--h3) + var(--mb--p));
+}
+p + h4, ul + h4, ol + h4, table + h4 {
+  margin-top: calc(var(--mb--h4) + var(--mb--p));
+}
+p + h5, ul + h5, ol + h5, table + h5 {
+  margin-top: calc(var(--mb--h5) + var(--mb--p));
+}
+p + h6, ul + h6, ol + h6, table + h6 {
+  margin-top: calc(var(--mb--h6) + var(--mb--p));
+}
+
+/* Styling text. */
+.text > *:last-child {
+  margin-bottom: 0;
+}
+
+/* The lists. */
+/* A list with round bullets. */
+ul {
+  margin-bottom: var(--mb--list);
+}
+ul > li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4px 0;
+}
+ul > li::before {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  margin-right: 6px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+/* A list with square bullets. */
+.list--square-bullets > li::before {
+  border-radius: 0;
+}
+
+/* A list with check marks. */
+.list--check-marks > li::before {
+  content: "\e934";
+  width: unset;
+  height: unset;
+  font-family: var(--ff--icons);
+  background-color: unset;
+}
+
+/* A list with cross marks. */
+.list--cross-marks > li::before {
+  content: "\e935";
+  width: unset;
+  height: unset;
+  font-family: var(--ff--icons);
+  background-color: unset;
+}
+
+/* A list with arrows. */
+.list--arrows > li::before {
+  content: "\e944";
+  width: unset;
+  height: unset;
+  font-family: var(--ff--icons);
+  background-color: unset;
+}
+
+/* A list with numbers. */
+ol {
+  margin-bottom: var(--mb--list);
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+ol li {
+  margin: 4px 0;
+}
+
+/* A list with roman numbers. */
+.list--roman-numbers {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+/* Styling lists inside a list. */
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 16px;
+}
+
+/* Fixing the margin bottom space. */
+li ul > li:last-child,
+li ol > li:last-child {
+  margin-bottom: 0;
+}
+
+/* The buttons. */
+/* The blueprint for a button. */
+.button, button, input[type=submit] {
+  display: inline-grid;
+  padding: var(--pt--button) var(--pr--button) var(--pb--button) var(--pl--button);
+  font-size: var(--fs--button);
+  line-height: var(--lh--button);
+  font-weight: var(--fw--button);
+  font-family: var(--ff--button);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover, button:hover, input[type=submit]:hover, .button:focus, button:focus, input[type=submit]:focus, .button:active, button:active, input[type=submit]:active {
+  opacity: 0.85;
+}
+@media (max-width: 467px) {
+  .button + .button, button + .button, .button + button, button + button, input[type=submit] + .button, input[type=submit] + button, .button + input[type=submit], button + input[type=submit], input[type=submit] + input[type=submit] {
+    margin-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .button, button, input[type=submit] {
+    width: 100%;
+  }
+}
+
+/* The blueprint for a white button. */
+.section[data-section-background=ac--second] .button--second, .section[data-section-background=ac--first] .button--first, .button--white {
+  background-color: var(--c--white);
+  color: var(--bc--default);
+}
+
+/* The blueprint for a first accent button. */
+.button--first {
+  background-color: var(--ac--first);
+  color: var(--tc--on-ac-first);
+}
+[disabled].button--first {
+  background-color: var(--ac--second);
+  color: var(--tc--on-ac-second);
+}
+
+/* The blueprint for a second accent button. */
+.button--second {
+  background-color: var(--ac--second);
+  color: var(--tc--on-ac-second);
+}
+
+/* Styling the buttons. */
+/* The forms. */
+/* The blueprint for a form field. */
+textarea, input[type=password], input[type=date], input[type=number], input[type=text] {
+  width: 100%;
+  padding: var(--pt--form-field) var(--pr--form-field) var(--pb--form-field) var(--pl--form-field);
+  font-family: var(--ff--text);
+  font-size: var(--fs--default);
+  line-height: var(--lh--default);
+  color: var(--tc--default);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--fmf--bdc);
+  outline: none;
+}
+textarea:hover, input[type=password]:hover, input[type=date]:hover, input[type=number]:hover, input[type=text]:hover, textarea:focus, input[type=password]:focus, input[type=date]:focus, input[type=number]:focus, input[type=text]:focus, textarea:active, input[type=password]:active, input[type=date]:active, input[type=number]:active, input[type=text]:active {
+  border-color: var(--fmf--bdc-hover);
+}
+
+/* The blueprint for a form icon. */
+.form-field-checkbox__icon, .form-field-radio__icon {
+  position: relative;
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 1px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid currentColor;
+  box-sizing: border-box;
+}
+.form-field-checkbox__icon::before, .form-field-radio__icon::before {
+  position: absolute;
+  content: "";
+  border-radius: inherit;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background-color: transparent;
+}
+
+/* Styling the form. */
+.form {
+  --form-label--height: 28px;
+}
+
+/* Styling the form fields. */
+.form__field {
+  position: relative;
+  margin-bottom: var(--mb--form-field);
+}
+.form__field[data-js-form-field-status=true] .form-field-status__icon::before {
+  content: "\e934";
+  font-family: var(--ff--icons);
+  color: var(--sc--success);
+}
+.form__field[data-js-form-field-status=false] .form-field-status__icon::before {
+  content: "\e935";
+  font-family: var(--ff--icons);
+  color: var(--sc--error);
+}
+
+.form-field-label__text {
+  display: block;
+  width: 100%;
+  padding-bottom: var(--pb--form-label-text);
+}
+
+/* Styling the form fields. */
+/* Styling the form field with multiple radios. */
+.form__field-radios .form-field-status__icon {
+  height: 24px;
+}
+.form__field-radios--inline .form-field__label {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__field-radios--inline .form-field__radio {
+  margin-right: 12px;
+}
+
+/* Styling a single radio field. */
+.form-field__radio {
+  display: flex;
+  align-items: center;
+}
+.form-field__radio input[type=radio] {
+  display: none;
+}
+.form-field__radio input[type=radio]:checked + .form-field-radio__icon::before {
+  background-color: var(--fm--ac-color);
+}
+.form-field__radio:hover, .form-field__radio:focus, .form-field__radio:active {
+  color: var(--fm--ac-color);
+}
+
+.form-field-radio__icon {
+  border-radius: 50%;
+}
+.form-field-radio__icon::before {
+  border-radius: inherit;
+}
+
+/* Styling the form field with multiple checkboxes. */
+.form__field-checkboxes .form-field-status__icon {
+  height: 24px;
+}
+
+/* Styling a single checkbox field. */
+.form-field__checkbox {
+  display: flex;
+  align-items: center;
+}
+.form-field__checkbox input[type=checkbox] {
+  display: none;
+}
+.form-field__checkbox input[type=checkbox]:checked + .form-field-checkbox__icon::before {
+  background-color: var(--fm--ac-color);
+}
+.form-field__checkbox:hover, .form-field__checkbox:focus, .form-field__checkbox:active {
+  color: var(--fm--ac-color);
+}
+.form-field__checkbox .form-field-status__icon {
+  height: 24px;
+}
+
+.form-field-checkbox__icon {
+  border-radius: 2px;
+}
+.form-field-checkbox__icon::before {
+  border-radius: 1px;
+}
+
+/* Styling the form field status tooltip. */
+.form-field__status {
+  position: absolute;
+  top: var(--form-label--height);
+  right: 0;
+  color: var(--tc--default);
+}
+.form-field__status:hover .form-field-status__tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.form-field-status__tooltip {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  transform: translateX(-50%);
+  padding: 8px 24px;
+  border: 1px solid var(--bdc--default);
+  background: var(--bgc--default);
+  font-size: var(--fs--small);
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  z-index: 14;
+}
+
+.form-field-status__icon {
+  display: flex;
+  width: 41px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+}
+
+/**
+* The layout includes.
+*/
+/* The default layout styling. */
+body {
+  background-color: var(--bgc--default);
+  padding: 8rem 16.4rem;
+}
+
+/* The grid layout. */
+/* Styling the grid parent. */
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Styling the grid child. */
+.grid-child {
+  display: inline-grid;
+  width: 100%;
+  grid-column: span 12;
+}
+
+/* Styling the grid child subclasses. */
+@media (min-width: 768px) {
+  .grid-child--11 {
+    grid-column: span 11;
+  }
+  .grid-child--10 {
+    grid-column: span 10;
+  }
+  .grid-child--9 {
+    grid-column: span 9;
+  }
+  .grid-child--8 {
+    grid-column: span 8;
+  }
+  .grid-child--7 {
+    grid-column: span 7;
+  }
+  .grid-child--6 {
+    grid-column: span 6;
+  }
+  .grid-child--5 {
+    grid-column: span 5;
+  }
+  .grid-child--4 {
+    grid-column: span 4;
+  }
+  .grid-child--3 {
+    grid-column: span 3;
+  }
+  .grid-child--2 {
+    grid-column: span 2;
+  }
+  .grid-child--1 {
+    grid-column: span 1;
+  }
+}
+/* Responsive styling. */
+/* A prefix to only apply the styles from desktop size. */
+@media (min-width: 1024px) {
+  .fd {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .fd--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .fd--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .fd--grid-child--1 {
+    grid-column: span 1;
+  }
+  .fd--grid-child--2 {
+    grid-column: span 2;
+  }
+  .fd--grid-child--3 {
+    grid-column: span 3;
+  }
+  .fd--grid-child--4 {
+    grid-column: span 4;
+  }
+  .fd--grid-child--5 {
+    grid-column: span 5;
+  }
+  .fd--grid-child--6 {
+    grid-column: span 6;
+  }
+  .fd--grid-child--7 {
+    grid-column: span 7;
+  }
+  .fd--grid-child--8 {
+    grid-column: span 8;
+  }
+  .fd--grid-child--9 {
+    grid-column: span 9;
+  }
+  .fd--grid-child--10 {
+    grid-column: span 10;
+  }
+  .fd--grid-child--11 {
+    grid-column: span 11;
+  }
+  .fd--grid-child--12 {
+    grid-column: span 12;
+  }
+  .fd--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .fd--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles from desktop menu size. */
+@media (min-width: 1248px) {
+  .fdm {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .fdm--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .fdm--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .fdm--grid-child--1 {
+    grid-column: span 1;
+  }
+  .fdm--grid-child--2 {
+    grid-column: span 2;
+  }
+  .fdm--grid-child--3 {
+    grid-column: span 3;
+  }
+  .fdm--grid-child--4 {
+    grid-column: span 4;
+  }
+  .fdm--grid-child--5 {
+    grid-column: span 5;
+  }
+  .fdm--grid-child--6 {
+    grid-column: span 6;
+  }
+  .fdm--grid-child--7 {
+    grid-column: span 7;
+  }
+  .fdm--grid-child--8 {
+    grid-column: span 8;
+  }
+  .fdm--grid-child--9 {
+    grid-column: span 9;
+  }
+  .fdm--grid-child--10 {
+    grid-column: span 10;
+  }
+  .fdm--grid-child--11 {
+    grid-column: span 11;
+  }
+  .fdm--grid-child--12 {
+    grid-column: span 12;
+  }
+  .fdm--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .fdm--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles till mobile menu size. */
+@media (max-width: 1247px) {
+  .tmm {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .tmm--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .tmm--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .tmm--grid-child--1 {
+    grid-column: span 1;
+  }
+  .tmm--grid-child--2 {
+    grid-column: span 2;
+  }
+  .tmm--grid-child--3 {
+    grid-column: span 3;
+  }
+  .tmm--grid-child--4 {
+    grid-column: span 4;
+  }
+  .tmm--grid-child--5 {
+    grid-column: span 5;
+  }
+  .tmm--grid-child--6 {
+    grid-column: span 6;
+  }
+  .tmm--grid-child--7 {
+    grid-column: span 7;
+  }
+  .tmm--grid-child--8 {
+    grid-column: span 8;
+  }
+  .tmm--grid-child--9 {
+    grid-column: span 9;
+  }
+  .tmm--grid-child--10 {
+    grid-column: span 10;
+  }
+  .tmm--grid-child--11 {
+    grid-column: span 11;
+  }
+  .tmm--grid-child--12 {
+    grid-column: span 12;
+  }
+  .tmm--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .tmm--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles till large tablet size. */
+@media (max-width: 1023px) {
+  .tlt {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .tlt--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .tlt--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .tlt--grid-child--1 {
+    grid-column: span 1;
+  }
+  .tlt--grid-child--2 {
+    grid-column: span 2;
+  }
+  .tlt--grid-child--3 {
+    grid-column: span 3;
+  }
+  .tlt--grid-child--4 {
+    grid-column: span 4;
+  }
+  .tlt--grid-child--5 {
+    grid-column: span 5;
+  }
+  .tlt--grid-child--6 {
+    grid-column: span 6;
+  }
+  .tlt--grid-child--7 {
+    grid-column: span 7;
+  }
+  .tlt--grid-child--8 {
+    grid-column: span 8;
+  }
+  .tlt--grid-child--9 {
+    grid-column: span 9;
+  }
+  .tlt--grid-child--10 {
+    grid-column: span 10;
+  }
+  .tlt--grid-child--11 {
+    grid-column: span 11;
+  }
+  .tlt--grid-child--12 {
+    grid-column: span 12;
+  }
+  .tlt--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .tlt--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles on large tablet size. */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .olt {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .olt--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .olt--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .olt--grid-child--1 {
+    grid-column: span 1;
+  }
+  .olt--grid-child--2 {
+    grid-column: span 2;
+  }
+  .olt--grid-child--3 {
+    grid-column: span 3;
+  }
+  .olt--grid-child--4 {
+    grid-column: span 4;
+  }
+  .olt--grid-child--5 {
+    grid-column: span 5;
+  }
+  .olt--grid-child--6 {
+    grid-column: span 6;
+  }
+  .olt--grid-child--7 {
+    grid-column: span 7;
+  }
+  .olt--grid-child--8 {
+    grid-column: span 8;
+  }
+  .olt--grid-child--9 {
+    grid-column: span 9;
+  }
+  .olt--grid-child--10 {
+    grid-column: span 10;
+  }
+  .olt--grid-child--11 {
+    grid-column: span 11;
+  }
+  .olt--grid-child--12 {
+    grid-column: span 12;
+  }
+  .olt--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .olt--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles from large tablet size. */
+@media (min-width: 768px) {
+  .flt {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .flt--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .flt--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .flt--grid-child--1 {
+    grid-column: span 1;
+  }
+  .flt--grid-child--2 {
+    grid-column: span 2;
+  }
+  .flt--grid-child--3 {
+    grid-column: span 3;
+  }
+  .flt--grid-child--4 {
+    grid-column: span 4;
+  }
+  .flt--grid-child--5 {
+    grid-column: span 5;
+  }
+  .flt--grid-child--6 {
+    grid-column: span 6;
+  }
+  .flt--grid-child--7 {
+    grid-column: span 7;
+  }
+  .flt--grid-child--8 {
+    grid-column: span 8;
+  }
+  .flt--grid-child--9 {
+    grid-column: span 9;
+  }
+  .flt--grid-child--10 {
+    grid-column: span 10;
+  }
+  .flt--grid-child--11 {
+    grid-column: span 11;
+  }
+  .flt--grid-child--12 {
+    grid-column: span 12;
+  }
+  .flt--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .flt--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles till small tablet size. */
+@media (max-width: 767px) {
+  .tst {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .tst--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .tst--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .tst--grid-child--1 {
+    grid-column: span 1;
+  }
+  .tst--grid-child--2 {
+    grid-column: span 2;
+  }
+  .tst--grid-child--3 {
+    grid-column: span 3;
+  }
+  .tst--grid-child--4 {
+    grid-column: span 4;
+  }
+  .tst--grid-child--5 {
+    grid-column: span 5;
+  }
+  .tst--grid-child--6 {
+    grid-column: span 6;
+  }
+  .tst--grid-child--7 {
+    grid-column: span 7;
+  }
+  .tst--grid-child--8 {
+    grid-column: span 8;
+  }
+  .tst--grid-child--9 {
+    grid-column: span 9;
+  }
+  .tst--grid-child--10 {
+    grid-column: span 10;
+  }
+  .tst--grid-child--11 {
+    grid-column: span 11;
+  }
+  .tst--grid-child--12 {
+    grid-column: span 12;
+  }
+  .tst--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .tst--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles on small tablet size. */
+@media (min-width: 468px) and (max-width: 767px) {
+  .ost {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .ost--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .ost--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .ost--grid-child--1 {
+    grid-column: span 1;
+  }
+  .ost--grid-child--2 {
+    grid-column: span 2;
+  }
+  .ost--grid-child--3 {
+    grid-column: span 3;
+  }
+  .ost--grid-child--4 {
+    grid-column: span 4;
+  }
+  .ost--grid-child--5 {
+    grid-column: span 5;
+  }
+  .ost--grid-child--6 {
+    grid-column: span 6;
+  }
+  .ost--grid-child--7 {
+    grid-column: span 7;
+  }
+  .ost--grid-child--8 {
+    grid-column: span 8;
+  }
+  .ost--grid-child--9 {
+    grid-column: span 9;
+  }
+  .ost--grid-child--10 {
+    grid-column: span 10;
+  }
+  .ost--grid-child--11 {
+    grid-column: span 11;
+  }
+  .ost--grid-child--12 {
+    grid-column: span 12;
+  }
+  .ost--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .ost--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles from small tablet size. */
+@media (min-width: 468px) {
+  .fst {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .fst--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .fst--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .fst--grid-child--1 {
+    grid-column: span 1;
+  }
+  .fst--grid-child--2 {
+    grid-column: span 2;
+  }
+  .fst--grid-child--3 {
+    grid-column: span 3;
+  }
+  .fst--grid-child--4 {
+    grid-column: span 4;
+  }
+  .fst--grid-child--5 {
+    grid-column: span 5;
+  }
+  .fst--grid-child--6 {
+    grid-column: span 6;
+  }
+  .fst--grid-child--7 {
+    grid-column: span 7;
+  }
+  .fst--grid-child--8 {
+    grid-column: span 8;
+  }
+  .fst--grid-child--9 {
+    grid-column: span 9;
+  }
+  .fst--grid-child--10 {
+    grid-column: span 10;
+  }
+  .fst--grid-child--11 {
+    grid-column: span 11;
+  }
+  .fst--grid-child--12 {
+    grid-column: span 12;
+  }
+  .fst--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .fst--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* A prefix to only apply the styles till mobile size. */
+@media (max-width: 467px) {
+  .tm {
+    /* Background colors are not included, would probably be used very rarely and
+       costs too much file size. */
+  }
+  .tm--grid-parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .tm--grid-child {
+    display: inline-grid;
+    width: 100%;
+    grid-column: span 12;
+  }
+  .tm--grid-child--1 {
+    grid-column: span 1;
+  }
+  .tm--grid-child--2 {
+    grid-column: span 2;
+  }
+  .tm--grid-child--3 {
+    grid-column: span 3;
+  }
+  .tm--grid-child--4 {
+    grid-column: span 4;
+  }
+  .tm--grid-child--5 {
+    grid-column: span 5;
+  }
+  .tm--grid-child--6 {
+    grid-column: span 6;
+  }
+  .tm--grid-child--7 {
+    grid-column: span 7;
+  }
+  .tm--grid-child--8 {
+    grid-column: span 8;
+  }
+  .tm--grid-child--9 {
+    grid-column: span 9;
+  }
+  .tm--grid-child--10 {
+    grid-column: span 10;
+  }
+  .tm--grid-child--11 {
+    grid-column: span 11;
+  }
+  .tm--grid-child--12 {
+    grid-column: span 12;
+  }
+  .tm--mr--object-half {
+    margin-right: calc(var(--mr--object) / 2);
+  }
+  .tm--ml--object-half {
+    margin-left: calc(var(--ml--object) / 2);
+  }
+}
+/* The sections layout. */
+/* The default styling for a section. */
+.section__row {
+  max-width: var(--p--max-width);
+  margin-right: auto;
+  margin-left: auto;
+}
+.section[data-section-background=bgc--default] + .section[data-section-background=bgc--default] {
+  padding-top: 0;
+}
+.section[data-section-background=gc--first] {
+  background-color: var(--gc--first);
+  color: var(--tc--on-gc-first);
+  --tc--default: var(--tc--on-gc-first);
+  --bgc--default: var(--gc--first);
+  --bdc--default: var(--bdc--on-gc-first);
+  /* Form colors. */
+  --fm--ac-color: var(--fm--ac-color-on-gc-first);
+  /* Form field colors. */
+  --fmf--bdc: var(--fmf--bdc-on-gc-first);
+  --fmf--bdc-hover: var(--fmf--bdc-on-gc-first-hover);
+  /* Table colors. */
+  --tbl--bgc-header: var(--tbl--bgc-header-on-gc-first);
+  --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-gc-first);
+  --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-gc-first);
+  --tbl--tc-header: var(--tbl--tc-header-on-gc-first);
+  --tbl--tc-row: var(--tbl--tc-row-on-gc-first);
+}
+.section[data-section-background=gc--first] + .section[data-section-background=gc--first] {
+  padding-top: 0;
+}
+.section[data-section-background=ac--first] {
+  background-color: var(--ac--first);
+  color: var(--tc--on-ac-first);
+  --tc--default: var(--tc--on-ac-first);
+  --bgc--default: var(--ac--first);
+  --bdc--default: var(--bdc--on-ac-first);
+  /* Form colors. */
+  --fm--ac-color: var(--fm--ac-color-on-ac-first);
+  /* Form field colors. */
+  --fmf--bdc: var(--fmf--bdc-on-ac-first);
+  --fmf--bdc-hover: var(--fmf--bdc-on-ac-first-hover);
+  /* Table colors. */
+  --tbl--bgc-header: var(--tbl--bgc-header-on-ac-first);
+  --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-ac-first);
+  --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-ac-first);
+  --tbl--tc-header: var(--tbl--tc-header-on-ac-first);
+  --tbl--tc-row: var(--tbl--tc-row-on-ac-first);
+}
+.section[data-section-background=ac--first] + .section[data-section-background=ac--first] {
+  padding-top: 0;
+}
+.section[data-section-background=ac--second] {
+  background-color: var(--ac--second);
+  color: var(--tc--on-ac-second);
+  --tc--default: var(--tc--on-ac-second);
+  --bgc--default: var(--ac--second);
+  --bdc--default: var(--bdc--on-ac-second);
+  /* Form colors. */
+  --fm--ac-color: var(--fm--ac-color-on-ac-second);
+  /* Form field colors. */
+  --fmf--bdc: var(--fmf--bdc-on-ac-second);
+  --fmf--bdc-hover: var(--fmf--bdc-on-ac-second-hover);
+  /* Table colors. */
+  --tbl--bgc-header: var(--tbl--bgc-header-on-ac-second);
+  --tbl--bgc-odd-row: var(--tbl--bgc-odd-row-on-ac-second);
+  --tbl--bgc-even-row: var(--tbl--bgc-even-row-on-ac-second);
+  --tbl--tc-header: var(--tbl--tc-header-on-ac-second);
+  --tbl--tc-row: var(--tbl--tc-row-on-ac-second);
+}
+.section[data-section-background=ac--second] + .section[data-section-background=ac--second] {
+  padding-top: 0;
+}
+
+/* Styling the sections. */
+#questions-holder {
+  background-color: var(--c--white);
+  padding-bottom: 6.4rem;
+  border-radius: 16px;
+}
+
+.content-holder {
+  padding: 6.4rem 6.4rem 0;
+}
+
+.button-holder {
+  padding: 0 6.4rem;
+}
+
+/* The object layout. */
+/* The object blueprint. */
+.object {
+  margin-bottom: var(--mb--object);
+  padding-right: var(--pr--object);
+  padding-left: var(--pl--object);
+}
+
+/* Styling the object class. */
+/* The item layout. */
+/* The item blueprint. */
+.item > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Styling the item class. */
+/**
+* The object includes.
+*/
+/* The tables. */
+/* The blueprint for the table. */
+table,
+.table {
+  display: table;
+  width: 100%;
+  margin-bottom: var(--mb--table);
+  border-collapse: collapse;
+  /* Styling the table head and header row. */
+  /* Styling the table rows and content. */
+}
+table thead > tr,
+.table thead > tr {
+  background-color: var(--tbl--bgc-header);
+}
+table th,
+.table th {
+  padding: var(--pt--th) var(--pr--th) var(--pb--th) var(--pl--th);
+  color: var(--tbl--tc-header);
+  font-weight: var(--fw--th);
+  text-align: left;
+}
+table tbody > tr:nth-of-type(odd),
+.table tbody > tr:nth-of-type(odd) {
+  background-color: var(--tbl--bgc-odd-row);
+}
+table tbody > tr:nth-of-type(even),
+.table tbody > tr:nth-of-type(even) {
+  background-color: var(--tbl--bgc-even-row);
+}
+table td,
+.table td {
+  padding: var(--pt--td) var(--pr--td) var(--pb--td) var(--pl--td);
+  color: var(--tbl--tc-row);
+  font-weight: var(--fw--td);
+}
+
+/* Including the styles for the table. */
+/**
+* The custom style includes.
+*/
+progress {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 16px 16px 0 0;
+  background-color: var(--ac--second);
+  border: none;
+  border: unset;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  height: 32px;
+}
+progress::-webkit-progress-bar {
+  background-color: var(--ac--second);
+}
+progress::-webkit-progress-value {
+  background-color: var(--ac--first);
+}
+
+#name {
+  display: inline;
+  width: auto;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: var(--ac--first);
+  padding: 0;
+  border: none;
+  border: unset;
+  line-height: inherit;
+}
+#name::-moz-placeholder {
+  color: #888888;
+}
+#name::placeholder {
+  color: #888888;
+}
+
+.content-holder {
+  height: calc(100vh - var(--mb--h1) - 16rem - 62px - 32px - 101px - 6.4rem);
+}
+
+.button-holder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rating-holder {
+  display: flex;
+  border-radius: 8px;
+  margin-bottom: 2.4rem;
+}
+
+.rating-button {
+  padding: 2.8rem 1rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  background-color: var(--c--white);
+  border: 1px solid var(--gc--second);
+  border-radius: 0;
+  color: inherit;
+  position: relative;
+}
+.rating-button--active {
+  border-color: var(--ac--first);
+  background-color: var(--ac--second);
+  color: var(--ac--first);
+}
+.rating-button:first-of-type {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.rating-button:last-of-type {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.rating-button:not(:last-of-type) {
+  border-right: none;
+  border-right: unset;
+}
+.rating-button:not(:last-of-type).rating-button--active::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  left: unset;
+  width: 1px;
+  height: 100%;
+  background-color: var(--ac--first);
+  content: "";
+}
+
+#answer-holder input {
+  padding: 3.6rem;
+  font-weight: 400;
+  border: 1px solid var(--gc--second);
+  border-radius: 8px;
+  color: var(--tc--second);
+}
+#answer-holder input::-moz-placeholder {
+  color: var(--tc--default);
+}
+#answer-holder input::placeholder {
+  color: var(--tc--default);
+}
+
+#answer-holder textarea {
+  padding: 3.6rem;
+  font-weight: 400;
+  border: 1px solid var(--gc--second);
+  border-radius: 8px;
+  min-height: 200px;
+  color: var(--tc--second);
+}
+#answer-holder textarea::-moz-placeholder {
+  color: var(--tc--default);
+}
+#answer-holder textarea::placeholder {
+  color: var(--tc--default);
+}
+
+.options-answer-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 16px;
+}
+.options-answer-holder label {
+  cursor: pointer;
+  border: 1px solid var(--gc--second);
+  border-radius: 8px;
+  padding: 7.2rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tc--second);
+}
+.options-answer-holder label.active {
+  border-color: var(--ac--first);
+  background-color: var(--ac--second);
+}
+.options-answer-holder label input {
+  display: none;
+}
+
+.options-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 16px;
+  margin-bottom: 16px;
+}
+.options-holder div {
+  border: 1px solid var(--gc--second);
+  border-radius: 8px;
+  padding: 2.4rem 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--tc--second);
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow: auto;
+}
+.options-holder + .options-answer-holder label {
+  padding: 2.4rem 1.2rem;
+}
+
+.color--ac--first {
+  color: var(--ac--first);
+}
