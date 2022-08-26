@@ -304,7 +304,7 @@ class IntermixStagiairsQuestions {
         {
             id : 8,
             question_type : 'options',
-            question_title : 'Heb je wel eens laravel gebruikt?',
+            question_title : 'Heb je wel eens Laravel gebruikt?',
             question_name : 'used_larvel',
             question_placeholder : '',
             question_options : [],
@@ -430,7 +430,7 @@ class IntermixStagiairsQuestions {
                 {
                     id : 2,
                     content: 'A: Allemaal "bar"\n' +
-                        'B: 2 bar en 2 "undefined"\n' +
+                        'B: 3 bar en 1 "undefined"\n' +
                         'C: Allemaal "undefined"\n' +
                         'D: Een error'
                 }
